@@ -271,6 +271,39 @@ build powerOf2.exe: CXX_EXECUTABLE_LINKER__powerOf2_Debug CMakeFiles/powerOf2.di
   TARGET_IMPLIB = libpowerOf2.dll.a
   TARGET_PDB = powerOf2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target NoRepeatString
+
+
+#############################################
+# Order-only phony target for NoRepeatString
+
+build cmake_object_order_depends_target_NoRepeatString: phony || CMakeFiles/NoRepeatString.dir
+
+build CMakeFiles/NoRepeatString.dir/SecondWeek/NoRepeatString.cpp.obj: CXX_COMPILER__NoRepeatString_Debug D$:/Baidu/SecondWeek/NoRepeatString.cpp || cmake_object_order_depends_target_NoRepeatString
+  DEP_FILE = CMakeFiles\NoRepeatString.dir\SecondWeek\NoRepeatString.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\NoRepeatString.dir
+  OBJECT_FILE_DIR = CMakeFiles\NoRepeatString.dir\SecondWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NoRepeatString
+
+
+#############################################
+# Link the executable NoRepeatString.exe
+
+build NoRepeatString.exe: CXX_EXECUTABLE_LINKER__NoRepeatString_Debug CMakeFiles/NoRepeatString.dir/SecondWeek/NoRepeatString.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NoRepeatString.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NoRepeatString.exe
+  TARGET_IMPLIB = libNoRepeatString.dll.a
+  TARGET_PDB = NoRepeatString.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -301,6 +334,8 @@ build Baidu: phony Baidu.exe
 
 build MXRCompetition: phony MXRCompetition.exe
 
+build NoRepeatString: phony NoRepeatString.exe
+
 build chess: phony chess.exe
 
 build combineArr: phony combineArr.exe
@@ -319,7 +354,7 @@ build powerOf2: phony powerOf2.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony Baidu.exe chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe
+build all: phony Baidu.exe chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe
 
 # =============================================================================
 # Built-in targets
