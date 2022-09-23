@@ -41,39 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/Baidu/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Baidu
-
-
-#############################################
-# Order-only phony target for Baidu
-
-build cmake_object_order_depends_target_Baidu: phony || CMakeFiles/Baidu.dir
-
-build CMakeFiles/Baidu.dir/main.cpp.obj: CXX_COMPILER__Baidu_Debug D$:/Baidu/main.cpp || cmake_object_order_depends_target_Baidu
-  DEP_FILE = CMakeFiles\Baidu.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\Baidu.dir
-  OBJECT_FILE_DIR = CMakeFiles\Baidu.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Baidu
-
-
-#############################################
-# Link the executable Baidu.exe
-
-build Baidu.exe: CXX_EXECUTABLE_LINKER__Baidu_Debug CMakeFiles/Baidu.dir/main.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Baidu.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Baidu.exe
-  TARGET_IMPLIB = libBaidu.dll.a
-  TARGET_PDB = Baidu.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target chess
 
 
@@ -464,8 +431,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build A+BProblem: phony A+BProblem.exe
 
-build Baidu: phony Baidu.exe
-
 build MXRCompetition: phony MXRCompetition.exe
 
 build NoRepeatString: phony NoRepeatString.exe
@@ -494,7 +459,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony Baidu.exe chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe
 
 # =============================================================================
 # Built-in targets

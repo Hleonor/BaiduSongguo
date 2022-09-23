@@ -1,4 +1,3 @@
-D:/Baidu/cmake-build-debug/CMakeFiles/Baidu.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/chess.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/combineArr.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/factorial.dir

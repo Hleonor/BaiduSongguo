@@ -3,8 +3,6 @@ project(Baidu)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Baidu main.cpp)
-
 add_executable(chess FirstWeek/chess.cpp)
 add_executable(combineArr FirstWeek/combineArr.cpp)
 add_executable(factorial FirstWeek/factorial.cpp)

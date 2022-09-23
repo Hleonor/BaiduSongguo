@@ -2,11 +2,7 @@
 0	363	6849386997137164	CMakeFiles/Baidu.dir/main.cpp.obj	ac3092b023c4b043
 366	541	6849386998887146	Baidu.exe	3916112284f621e8
 4	451	6849426246512585	CMakeFiles/NoRepeatString.dir/SecondWeek/NoRepeatString.cpp.obj	35678b00abf604a8
-0	467	6852606350439792	CMakeFiles/test.dir/SecondWeek/test.cpp.obj	bae91e097aa8fe3
-453	658	6849426248548634	NoRepeatString.exe	25a84d0e8a20aaab
-2	345	6852607205844060	CMakeFiles/test.dir/SecondWeek/test.cpp.obj	bae91e097aa8fe3
-1	337	6852608043674101	CMakeFiles/maxPower.dir/SecondWeek/maxPower.cpp.obj	c62dcc3592ba60e2
-3	329	6852608876587960	CMakeFiles/test.dir/SecondWeek/test.cpp.obj	bae91e097aa8fe3
-4	347	6852609127451015	CMakeFiles/maxPower.dir/SecondWeek/maxPower.cpp.obj	c62dcc3592ba60e2
-348	534	6852609129326014	maxPower.exe	8014dbc3d2d15727
 3	368	6852611256067555	CMakeFiles/test.dir/SecondWeek/test.cpp.obj	bae91e097aa8fe3
+4	347	6852609127451015	CMakeFiles/maxPower.dir/SecondWeek/maxPower.cpp.obj	c62dcc3592ba60e2
+453	658	6849426248548634	NoRepeatString.exe	25a84d0e8a20aaab
+348	534	6852609129326014	maxPower.exe	8014dbc3d2d15727
