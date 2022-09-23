@@ -304,6 +304,138 @@ build NoRepeatString.exe: CXX_EXECUTABLE_LINKER__NoRepeatString_Debug CMakeFiles
   TARGET_IMPLIB = libNoRepeatString.dll.a
   TARGET_PDB = NoRepeatString.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target A+BProblem
+
+
+#############################################
+# Order-only phony target for A+BProblem
+
+build cmake_object_order_depends_target_A+BProblem: phony || CMakeFiles/A+BProblem.dir
+
+build CMakeFiles/A+BProblem.dir/SecondWeek/A+BProblem.cpp.obj: CXX_COMPILER__A.2bBProblem_Debug D$:/Baidu/SecondWeek/A+BProblem.cpp || cmake_object_order_depends_target_A+BProblem
+  DEP_FILE = CMakeFiles\A+BProblem.dir\SecondWeek\A+BProblem.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\A+BProblem.dir
+  OBJECT_FILE_DIR = CMakeFiles\A+BProblem.dir\SecondWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target A+BProblem
+
+
+#############################################
+# Link the executable A+BProblem.exe
+
+build A+BProblem.exe: CXX_EXECUTABLE_LINKER__A.2bBProblem_Debug CMakeFiles/A+BProblem.dir/SecondWeek/A+BProblem.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\A+BProblem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = A+BProblem.exe
+  TARGET_IMPLIB = libA+BProblem.dll.a
+  TARGET_PDB = A+BProblem.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target StandInQueue
+
+
+#############################################
+# Order-only phony target for StandInQueue
+
+build cmake_object_order_depends_target_StandInQueue: phony || CMakeFiles/StandInQueue.dir
+
+build CMakeFiles/StandInQueue.dir/SecondWeek/StandInQueue.cpp.obj: CXX_COMPILER__StandInQueue_Debug D$:/Baidu/SecondWeek/StandInQueue.cpp || cmake_object_order_depends_target_StandInQueue
+  DEP_FILE = CMakeFiles\StandInQueue.dir\SecondWeek\StandInQueue.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\StandInQueue.dir
+  OBJECT_FILE_DIR = CMakeFiles\StandInQueue.dir\SecondWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StandInQueue
+
+
+#############################################
+# Link the executable StandInQueue.exe
+
+build StandInQueue.exe: CXX_EXECUTABLE_LINKER__StandInQueue_Debug CMakeFiles/StandInQueue.dir/SecondWeek/StandInQueue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\StandInQueue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = StandInQueue.exe
+  TARGET_IMPLIB = libStandInQueue.dll.a
+  TARGET_PDB = StandInQueue.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target maxPower
+
+
+#############################################
+# Order-only phony target for maxPower
+
+build cmake_object_order_depends_target_maxPower: phony || CMakeFiles/maxPower.dir
+
+build CMakeFiles/maxPower.dir/SecondWeek/maxPower.cpp.obj: CXX_COMPILER__maxPower_Debug D$:/Baidu/SecondWeek/maxPower.cpp || cmake_object_order_depends_target_maxPower
+  DEP_FILE = CMakeFiles\maxPower.dir\SecondWeek\maxPower.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\maxPower.dir
+  OBJECT_FILE_DIR = CMakeFiles\maxPower.dir\SecondWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target maxPower
+
+
+#############################################
+# Link the executable maxPower.exe
+
+build maxPower.exe: CXX_EXECUTABLE_LINKER__maxPower_Debug CMakeFiles/maxPower.dir/SecondWeek/maxPower.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\maxPower.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = maxPower.exe
+  TARGET_IMPLIB = libmaxPower.dll.a
+  TARGET_PDB = maxPower.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+
+build CMakeFiles/test.dir/SecondWeek/test.cpp.obj: CXX_COMPILER__test_Debug D$:/Baidu/SecondWeek/test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\SecondWeek\test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir\SecondWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test.exe
+
+build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/SecondWeek/test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.exe
+  TARGET_IMPLIB = libtest.dll.a
+  TARGET_PDB = test.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -330,11 +462,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build A+BProblem: phony A+BProblem.exe
+
 build Baidu: phony Baidu.exe
 
 build MXRCompetition: phony MXRCompetition.exe
 
 build NoRepeatString: phony NoRepeatString.exe
+
+build StandInQueue: phony StandInQueue.exe
 
 build chess: phony chess.exe
 
@@ -344,7 +480,11 @@ build factorial: phony factorial.exe
 
 build matrixMultiple: phony matrixMultiple.exe
 
+build maxPower: phony maxPower.exe
+
 build powerOf2: phony powerOf2.exe
+
+build test: phony test.exe
 
 # =============================================================================
 # Folder targets.
@@ -354,7 +494,7 @@ build powerOf2: phony powerOf2.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony Baidu.exe chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe
+build all: phony Baidu.exe chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe
 
 # =============================================================================
 # Built-in targets

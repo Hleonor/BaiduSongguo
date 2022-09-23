@@ -6,5 +6,9 @@ D:/Baidu/cmake-build-debug/CMakeFiles/matrixMultiple.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/MXRCompetition.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/powerOf2.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/NoRepeatString.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/A+BProblem.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/StandInQueue.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/maxPower.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/test.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/rebuild_cache.dir

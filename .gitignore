@@ -1,0 +1,25 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+!/SecondWeek/
+!/cmake-build-debug/
+!/.gitignore
+/SecondWeek/A+BProblem.cpp
+/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f71b1cbfad4433d68611.json
+/cmake-build-debug/.cmake/api/v1/reply/index-2022-09-19T03-17-51-0235.json
+/SecondWeek/maxPower.cpp
+/cmake-build-debug/CMakeFiles/maxPower.dir/SecondWeek/maxPower.cpp.obj
+/cmake-build-debug/maxPower.exe
+/SecondWeek/StandInQueue.cpp
+/cmake-build-debug/.cmake/api/v1/reply/target-A+BProblem-Debug-b930b56b907fc19ff27d.json
+/cmake-build-debug/.cmake/api/v1/reply/target-maxPower-Debug-70ab5c1a5474cb1e4c3d.json
+/cmake-build-debug/.cmake/api/v1/reply/target-StandInQueue-Debug-e8e80ac3e0183fac2075.json
+/cmake-build-debug/.cmake/api/v1/reply/target-test-Debug-4c3204defe8679153184.json
+/SecondWeek/test.cpp
+/cmake-build-debug/CMakeFiles/test.dir/SecondWeek/test.cpp.obj
