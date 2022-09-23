@@ -403,6 +403,39 @@ build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/SecondWeek
   TARGET_IMPLIB = libtest.dll.a
   TARGET_PDB = test.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target simplifyString
+
+
+#############################################
+# Order-only phony target for simplifyString
+
+build cmake_object_order_depends_target_simplifyString: phony || CMakeFiles/simplifyString.dir
+
+build CMakeFiles/simplifyString.dir/thirdweek/simplifyString.cpp.obj: CXX_COMPILER__simplifyString_Debug D$:/Baidu/thirdweek/simplifyString.cpp || cmake_object_order_depends_target_simplifyString
+  DEP_FILE = CMakeFiles\simplifyString.dir\thirdweek\simplifyString.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\simplifyString.dir
+  OBJECT_FILE_DIR = CMakeFiles\simplifyString.dir\thirdweek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target simplifyString
+
+
+#############################################
+# Link the executable simplifyString.exe
+
+build simplifyString.exe: CXX_EXECUTABLE_LINKER__simplifyString_Debug CMakeFiles/simplifyString.dir/thirdweek/simplifyString.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\simplifyString.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = simplifyString.exe
+  TARGET_IMPLIB = libsimplifyString.dll.a
+  TARGET_PDB = simplifyString.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -449,6 +482,8 @@ build maxPower: phony maxPower.exe
 
 build powerOf2: phony powerOf2.exe
 
+build simplifyString: phony simplifyString.exe
+
 build test: phony test.exe
 
 # =============================================================================
@@ -459,7 +494,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe
 
 # =============================================================================
 # Built-in targets
