@@ -63,6 +63,12 @@ void combine()
 
 void handle_a()
 {
+    if (current_node == root)
+    {
+        NODE* new_node = createNode(current_node);;
+        current_node->left = new_node;
+        current_node = new_node;
+    }
     current_node->node_str += 'a';
 }
 
@@ -127,7 +133,6 @@ void handleString()
         else if (mainString[i] == '(')
         {
             handle_left_bracket();
-            // i++;
         }
         else
         {
@@ -137,14 +142,15 @@ void handleString()
     combine(); // 最后将结果combine到父节点
 }
 
+// TODO:思路错了，遇到左括号的时候不应该连着创建两个节点，第二个节点应该是什么应该具体根据下一个字符是a还是(来进一步判断
 int main()
 {
     root = createRoot(root);
+    current_node = root;
     cin >> mainString;
     // 根节点开始的时候不保存内容，因为遍历字符串的顺序是从左到右
     // 所以一开始传入左子节点当作待操作节点
-    current_node = createNode(root);
-    root->left = current_node;
+
     handleString();
     printf("%d" , root->node_str.size());
     return 0;
