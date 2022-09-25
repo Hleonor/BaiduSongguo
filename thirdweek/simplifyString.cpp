@@ -37,6 +37,7 @@ NODE* createNode(NODE* father)
 string mainString;
 struct NODE* root;
 struct NODE *current_node; // 指向当前处理的节点
+NODE* add_a_node;
 
 string str_compare() // 比较谁的字符长度更长
 {
@@ -63,25 +64,21 @@ void combine()
 
 void handle_a()
 {
-    /*if (current_node == root)
-    {
-        NODE* new_node = createNode(current_node);;
-        current_node->left = new_node;
-        current_node = new_node;
-    }*/
     if (current_node->left == NULL)
     {
         NODE* new_node = createNode(current_node);
         current_node->left = new_node;
-        current_node = new_node;
+        add_a_node = new_node;
+        //current_node = new_node;
     }
     else if (current_node->right == NULL)
     {
         NODE* new_node = createNode(current_node);
         current_node->right = new_node;
-        current_node = new_node;
+        add_a_node = new_node;
+        // current_node = new_node;
     }
-    current_node->node_str += 'a';
+    add_a_node->node_str += 'a';
 }
 
 void handle_left_bracket()
@@ -96,12 +93,8 @@ void handle_left_bracket()
     {
         NODE* new_node_1 = createNode(current_node);
         current_node->right = new_node_1;
+        current_node = new_node_1;
     }
-    /*// 遇到左括号的时候必然需要创建两个节点，因为左括号的下一个字符必然是a
-    NODE* new_node_2 = createNode(current_node);
-    // 第二个创建的新节点一定是第一个创建新节点的右节点
-    current_node->left = new_node_2;
-    current_node = new_node_2;*/
 }
 
 void handle_right_bracket()
