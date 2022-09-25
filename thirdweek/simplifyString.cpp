@@ -63,10 +63,22 @@ void combine()
 
 void handle_a()
 {
-    if (current_node == root)
+    /*if (current_node == root)
     {
         NODE* new_node = createNode(current_node);;
         current_node->left = new_node;
+        current_node = new_node;
+    }*/
+    if (current_node->left == NULL)
+    {
+        NODE* new_node = createNode(current_node);
+        current_node->left = new_node;
+        current_node = new_node;
+    }
+    else if (current_node->right == NULL)
+    {
+        NODE* new_node = createNode(current_node);
+        current_node->right = new_node;
         current_node = new_node;
     }
     current_node->node_str += 'a';
@@ -85,11 +97,11 @@ void handle_left_bracket()
         NODE* new_node_1 = createNode(current_node);
         current_node->right = new_node_1;
     }
-    // 遇到左括号的时候必然需要创建两个节点，因为左括号的下一个字符必然是a
+    /*// 遇到左括号的时候必然需要创建两个节点，因为左括号的下一个字符必然是a
     NODE* new_node_2 = createNode(current_node);
     // 第二个创建的新节点一定是第一个创建新节点的右节点
     current_node->left = new_node_2;
-    current_node = new_node_2;
+    current_node = new_node_2;*/
 }
 
 void handle_right_bracket()
