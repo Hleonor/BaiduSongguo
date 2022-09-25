@@ -10,5 +10,8 @@ D:/Baidu/cmake-build-debug/CMakeFiles/StandInQueue.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/maxPower.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/test.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/simplifyString.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/question1.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/question2.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/question4.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/rebuild_cache.dir

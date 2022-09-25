@@ -37,7 +37,7 @@ NODE* createNode(NODE* father)
 string mainString;
 struct NODE* root;
 struct NODE *current_node; // 指向当前处理的节点
-NODE* add_a_node;
+NODE* add_a_node = NULL;
 
 string str_compare() // 比较谁的字符长度更长
 {
@@ -52,31 +52,40 @@ void combine()
         current_node->parent->node_str += current_node->node_str;
         current_node = current_node->parent;
         free(current_node->left);
+        current_node->left = NULL;
+        add_a_node = NULL;
     }
     else if (current_node->parent->left && current_node->parent->right)
     {
         current_node->parent->node_str += str_compare();
         current_node = current_node->parent;
         delete current_node->left;
+        current_node->left = NULL;
         delete current_node->right;
+        current_node->right = NULL;
+
+        add_a_node = NULL;
     }
 }
 
 void handle_a()
 {
-    if (current_node->left == NULL)
+    if (add_a_node == NULL)
     {
-        NODE* new_node = createNode(current_node);
-        current_node->left = new_node;
-        add_a_node = new_node;
-        //current_node = new_node;
-    }
-    else if (current_node->right == NULL)
-    {
-        NODE* new_node = createNode(current_node);
-        current_node->right = new_node;
-        add_a_node = new_node;
-        // current_node = new_node;
+        if (current_node->left == NULL)
+        {
+            NODE* new_node = createNode(current_node);
+            current_node->left = new_node;
+            add_a_node = new_node;
+            current_node = new_node;
+        }
+        else if (current_node->right == NULL)
+        {
+            NODE* new_node = createNode(current_node);
+            current_node->right = new_node;
+            add_a_node = new_node;
+            current_node = new_node;
+        }
     }
     add_a_node->node_str += 'a';
 }
@@ -88,12 +97,16 @@ void handle_left_bracket()
         NODE* new_node_1 = createNode(current_node);
         current_node->left = new_node_1;
         current_node = new_node_1;
+        // add_a_node = current_node;
+        add_a_node = NULL; // 针对 aa(aa) | (aa)节点3被创造的时候add_a_node指向仍指向节点2
     }
     else
     {
         NODE* new_node_1 = createNode(current_node);
         current_node->right = new_node_1;
         current_node = new_node_1;
+        // add_a_node = current_node;
+        add_a_node = NULL;
     }
 }
 
@@ -101,7 +114,8 @@ void handle_right_bracket()
 {
     // 遇到右括号，合并current_node父亲节点的两个孩子节点
     combine();
-    if (current_node->parent->node_str != "")
+    // 此处是否需要循环？
+    while (current_node -> parent && current_node->parent->node_str != "")
     {
         combine();
         // current_node = current_node->parent;
@@ -123,15 +137,16 @@ void handleString()
             {
                 NODE* brother = createNode(current_node->parent);
                 current_node->parent->right = brother;
-                NODE* new_node = createNode(brother);
-                brother->left = new_node;
-                current_node = new_node;
-                i++;
+                current_node = brother;
+                add_a_node = NULL; // 针对于例子(aa|(aaa|a))aa节点4的情况
+
+                i++; // aa(aa)|(aa)的5节点；i++添加是因为要跨越| 和 (，当前创建brother节点就是针对于(的空节点
             }
             else if (mainString[i + 1] == 'a') // 只需要跨越 |
             {
                 NODE* brother = createNode(current_node->parent);
                 current_node->parent->right = brother;
+                add_a_node = brother;
                 current_node = brother;
             }
         }
@@ -142,6 +157,10 @@ void handleString()
         else
         {
             handle_right_bracket();
+            if (mainString[i + 1] == 'a')
+            {
+                add_a_node = current_node;
+            }
         }
     }
     combine(); // 最后将结果combine到父节点
