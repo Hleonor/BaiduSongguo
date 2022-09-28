@@ -568,6 +568,72 @@ build test01.exe: CXX_EXECUTABLE_LINKER__test01_Debug CMakeFiles/test01.dir/thir
   TARGET_IMPLIB = libtest01.dll.a
   TARGET_PDB = test01.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test02
+
+
+#############################################
+# Order-only phony target for test02
+
+build cmake_object_order_depends_target_test02: phony || CMakeFiles/test02.dir
+
+build CMakeFiles/test02.dir/thirdweek/test02.cpp.obj: CXX_COMPILER__test02_Debug D$:/Baidu/thirdweek/test02.cpp || cmake_object_order_depends_target_test02
+  DEP_FILE = CMakeFiles\test02.dir\thirdweek\test02.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\test02.dir
+  OBJECT_FILE_DIR = CMakeFiles\test02.dir\thirdweek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test02
+
+
+#############################################
+# Link the executable test02.exe
+
+build test02.exe: CXX_EXECUTABLE_LINKER__test02_Debug CMakeFiles/test02.dir/thirdweek/test02.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test02.exe
+  TARGET_IMPLIB = libtest02.dll.a
+  TARGET_PDB = test02.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test03
+
+
+#############################################
+# Order-only phony target for test03
+
+build cmake_object_order_depends_target_test03: phony || CMakeFiles/test03.dir
+
+build CMakeFiles/test03.dir/thirdweek/test03.cpp.obj: CXX_COMPILER__test03_Debug D$:/Baidu/thirdweek/test03.cpp || cmake_object_order_depends_target_test03
+  DEP_FILE = CMakeFiles\test03.dir\thirdweek\test03.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\test03.dir
+  OBJECT_FILE_DIR = CMakeFiles\test03.dir\thirdweek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test03
+
+
+#############################################
+# Link the executable test03.exe
+
+build test03.exe: CXX_EXECUTABLE_LINKER__test03_Debug CMakeFiles/test03.dir/thirdweek/test03.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test03.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test03.exe
+  TARGET_IMPLIB = libtest03.dll.a
+  TARGET_PDB = test03.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -626,6 +692,10 @@ build test: phony test.exe
 
 build test01: phony test01.exe
 
+build test02: phony test02.exe
+
+build test03: phony test03.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -634,7 +704,7 @@ build test01: phony test01.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe test03.exe
 
 # =============================================================================
 # Built-in targets
