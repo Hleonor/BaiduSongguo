@@ -634,6 +634,39 @@ build test03.exe: CXX_EXECUTABLE_LINKER__test03_Debug CMakeFiles/test03.dir/thir
   TARGET_IMPLIB = libtest03.dll.a
   TARGET_PDB = test03.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Question1
+
+
+#############################################
+# Order-only phony target for Question1
+
+build cmake_object_order_depends_target_Question1: phony || CMakeFiles/Question1.dir
+
+build CMakeFiles/Question1.dir/FourthWeek/Question1.cpp.obj: CXX_COMPILER__Question1_Debug D$:/Baidu/FourthWeek/Question1.cpp || cmake_object_order_depends_target_Question1
+  DEP_FILE = CMakeFiles\Question1.dir\FourthWeek\Question1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Question1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Question1.dir\FourthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Question1
+
+
+#############################################
+# Link the executable Question1.exe
+
+build Question1.exe: CXX_EXECUTABLE_LINKER__Question1_Debug CMakeFiles/Question1.dir/FourthWeek/Question1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Question1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Question1.exe
+  TARGET_IMPLIB = libQuestion1.dll.a
+  TARGET_PDB = Question1.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -665,6 +698,8 @@ build A+BProblem: phony A+BProblem.exe
 build MXRCompetition: phony MXRCompetition.exe
 
 build NoRepeatString: phony NoRepeatString.exe
+
+build Question1: phony Question1.exe
 
 build StandInQueue: phony StandInQueue.exe
 
@@ -704,7 +739,7 @@ build test03: phony test03.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe test03.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe test03.exe Question1.exe
 
 # =============================================================================
 # Built-in targets
