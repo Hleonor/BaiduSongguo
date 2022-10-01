@@ -13,7 +13,13 @@ using namespace std;
  * 当该邻接表构造完了以后
  * 从该表第一个元素开始取出，然后遍历各个数组，查看数组内的元素是否出现在当前范围内
  */
+struct BOUNDARY
+{
+    int left;
+    int right;
+};
 int number[5010][30] = {0};
+BOUNDARY* boundary[250] = {NULL};
 
 int main()
 {
@@ -47,12 +53,25 @@ int main()
         tmp.clear();
         groupNum++;
     }
-
     sort(sort_number.begin() , sort_number.end());
-    for (int i= 0; i < sort_number.size(); i++)
+    int maxBoundary = sort_number[sort_number.size() - 1] - sort_number[0];
+
+    for (int i = 0; i < sort_number.size(); i++)
     {
-        cout << sort_number[i] << " ";
+        for (int j = i + 1; j < sort_number.size(); j++)
+        {
+            int left = sort_number[i];
+            int right = sort_number[j];
+            if(boundary[right - left] == NULL)
+            {
+                boundary[right - left] = new BOUNDARY;
+                boundary[right - left]->left = left;
+                boundary[right - left]->right = right;
+            }
+        }
     }
+
+
 
     return 0;
 }
