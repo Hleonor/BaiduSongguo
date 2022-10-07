@@ -52,3 +52,6 @@ gen
 /cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-68f87d72f61e7a5a72b1.json
 /cmake-build-debug/.cmake/api/v1/reply/index-2022-10-07T09-01-30-0026.json
 /cmake-build-debug/.cmake/api/v1/reply/target-Question2-Debug-3d9cb4d9c4049f9b0f97.json
+
+*.exe
+*.obj
