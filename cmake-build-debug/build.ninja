@@ -700,6 +700,105 @@ build Question2.exe: CXX_EXECUTABLE_LINKER__Question2_Debug CMakeFiles/Question2
   TARGET_IMPLIB = libQuestion2.dll.a
   TARGET_PDB = Question2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Question3
+
+
+#############################################
+# Order-only phony target for Question3
+
+build cmake_object_order_depends_target_Question3: phony || CMakeFiles/Question3.dir
+
+build CMakeFiles/Question3.dir/FourthWeek/Question3.cpp.obj: CXX_COMPILER__Question3_Debug D$:/Baidu/FourthWeek/Question3.cpp || cmake_object_order_depends_target_Question3
+  DEP_FILE = CMakeFiles\Question3.dir\FourthWeek\Question3.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Question3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Question3.dir\FourthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Question3
+
+
+#############################################
+# Link the executable Question3.exe
+
+build Question3.exe: CXX_EXECUTABLE_LINKER__Question3_Debug CMakeFiles/Question3.dir/FourthWeek/Question3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Question3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Question3.exe
+  TARGET_IMPLIB = libQuestion3.dll.a
+  TARGET_PDB = Question3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Question4
+
+
+#############################################
+# Order-only phony target for Question4
+
+build cmake_object_order_depends_target_Question4: phony || CMakeFiles/Question4.dir
+
+build CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj: CXX_COMPILER__Question4_Debug D$:/Baidu/FourthWeek/Question4.cpp || cmake_object_order_depends_target_Question4
+  DEP_FILE = CMakeFiles\Question4.dir\FourthWeek\Question4.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Question4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Question4.dir\FourthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Question4
+
+
+#############################################
+# Link the executable Question4.exe
+
+build Question4.exe: CXX_EXECUTABLE_LINKER__Question4_Debug CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Question4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Question4.exe
+  TARGET_IMPLIB = libQuestion4.dll.a
+  TARGET_PDB = Question4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Question5
+
+
+#############################################
+# Order-only phony target for Question5
+
+build cmake_object_order_depends_target_Question5: phony || CMakeFiles/Question5.dir
+
+build CMakeFiles/Question5.dir/FourthWeek/Question5.cpp.obj: CXX_COMPILER__Question5_Debug D$:/Baidu/FourthWeek/Question5.cpp || cmake_object_order_depends_target_Question5
+  DEP_FILE = CMakeFiles\Question5.dir\FourthWeek\Question5.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Question5.dir
+  OBJECT_FILE_DIR = CMakeFiles\Question5.dir\FourthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Question5
+
+
+#############################################
+# Link the executable Question5.exe
+
+build Question5.exe: CXX_EXECUTABLE_LINKER__Question5_Debug CMakeFiles/Question5.dir/FourthWeek/Question5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Question5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Question5.exe
+  TARGET_IMPLIB = libQuestion5.dll.a
+  TARGET_PDB = Question5.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -735,6 +834,12 @@ build NoRepeatString: phony NoRepeatString.exe
 build Question1: phony Question1.exe
 
 build Question2: phony Question2.exe
+
+build Question3: phony Question3.exe
+
+build Question4: phony Question4.exe
+
+build Question5: phony Question5.exe
 
 build StandInQueue: phony StandInQueue.exe
 
@@ -774,7 +879,7 @@ build test03: phony test03.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe test03.exe Question1.exe Question2.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe test03.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe
 
 # =============================================================================
 # Built-in targets
