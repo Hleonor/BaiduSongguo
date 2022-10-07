@@ -31,6 +31,8 @@ int main()
     int n;
     scanf("%d" , &n);
     getchar();
+    int min_left = INT_MAX;
+    int max_right = -1;
     while (groupNum != n)
     {
         char ch = getchar();
@@ -41,6 +43,14 @@ int main()
             {
                 number[groupNum][numberCnt] = atoi(tmp.c_str());
                 sort_number.push_back(number[groupNum][numberCnt]);
+                if (number[groupNum][numberCnt] < min_left)
+                {
+                    min_left = number[groupNum][numberCnt];
+                }
+                if (number[groupNum][numberCnt] > max_right)
+                {
+                    max_right = number[groupNum][numberCnt];
+                }
                 numberCnt++;
                 tmp.clear();
             }
@@ -53,11 +63,23 @@ int main()
         number[groupNum][numberCnt] = atoi(tmp.c_str());
         count_of_number[groupNum] = numberCnt + 1;
         sort_number.push_back(number[groupNum][numberCnt]);
+        if (number[groupNum][numberCnt] < min_left)
+        {
+            min_left = number[groupNum][numberCnt];
+        }
+        if (number[groupNum][numberCnt] > max_right)
+        {
+            max_right = number[groupNum][numberCnt];
+        }
+        // sort(sort_number.begin(), sort_number.end());
         tmp.clear();
         groupNum++;
     }
-    sort(sort_number.begin() , sort_number.end());
-    int maxBoundary = sort_number[sort_number.size() - 1] - sort_number[0];
+    // sort(sort_number.begin() , sort_number.end());
+    // int maxBoundary = sort_number[sort_number.size() - 1] - sort_number[0];
+    int maxBoundary = max_right - min_left;
+    printf("%d %d\n" , min_left , max_right);
+
 
     for (int i = 0; i < sort_number.size(); i++)
     {
@@ -85,6 +107,9 @@ int main()
         }
     }
 
+    int min_left_boundary = INT_MAX;
+    int range_length = 0;
+    int appear_row = 0;
     for (int i = 1; i <= maxBoundary;)
     {
         if (boundary[i] == NULL)
@@ -116,18 +141,30 @@ int main()
                 break;
             }
         }
-        // 所有数组都判断完毕，如果appear为true，说明该范围满足条件，输出
+        // 所有数组都判断完毕，如果appear为true，说明该范围满足条件
+        // 此时找到的范围是距离最小的范围，所有可能的结果必然出现在该行内，不可能出现在下一行，因为已经有了一个最小的满足情况的范围了
+        // 此时只需要该范围和本行中上一次找到的范围谁的左边界更小
         if (appear)
         {
-            printf("%d %d" , boundary[i]->left , boundary[i]->right);
-            return 0;
+            appear_row = i;
+            if (boundary[i]->left < min_left_boundary)
+            {
+                min_left_boundary = boundary[i]->left;
+                range_length = boundary[i]->right - boundary[i]->left;
+            }
+            // printf("%d %d" , boundary[i]->left , boundary[i]->right);
         }
-        else if (boundary[i]->next != NULL)
+        if (boundary[i]->next != NULL)
         {
             boundary[i] = boundary[i]->next;
         }
         else
         {
+            if (appear_row != 0)
+            {
+                printf("%d %d" , min_left_boundary , min_left_boundary + range_length);
+                return 0;
+            }
             i++;
         }
     }
