@@ -799,6 +799,39 @@ build Question5.exe: CXX_EXECUTABLE_LINKER__Question5_Debug CMakeFiles/Question5
   TARGET_IMPLIB = libQuestion5.dll.a
   TARGET_PDB = Question5.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FifthQuestion1
+
+
+#############################################
+# Order-only phony target for FifthQuestion1
+
+build cmake_object_order_depends_target_FifthQuestion1: phony || CMakeFiles/FifthQuestion1.dir
+
+build CMakeFiles/FifthQuestion1.dir/FifthWeek/FifthQuestion1.cpp.obj: CXX_COMPILER__FifthQuestion1_Debug D$:/Baidu/FifthWeek/FifthQuestion1.cpp || cmake_object_order_depends_target_FifthQuestion1
+  DEP_FILE = CMakeFiles\FifthQuestion1.dir\FifthWeek\FifthQuestion1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\FifthQuestion1.dir
+  OBJECT_FILE_DIR = CMakeFiles\FifthQuestion1.dir\FifthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FifthQuestion1
+
+
+#############################################
+# Link the executable FifthQuestion1.exe
+
+build FifthQuestion1.exe: CXX_EXECUTABLE_LINKER__FifthQuestion1_Debug CMakeFiles/FifthQuestion1.dir/FifthWeek/FifthQuestion1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FifthQuestion1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FifthQuestion1.exe
+  TARGET_IMPLIB = libFifthQuestion1.dll.a
+  TARGET_PDB = FifthQuestion1.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -826,6 +859,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Target aliases.
 
 build A+BProblem: phony A+BProblem.exe
+
+build FifthQuestion1: phony FifthQuestion1.exe
 
 build MXRCompetition: phony MXRCompetition.exe
 
@@ -879,7 +914,7 @@ build test03: phony test03.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe test03.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe test03.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe
 
 # =============================================================================
 # Built-in targets

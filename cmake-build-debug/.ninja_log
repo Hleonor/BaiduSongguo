@@ -1,6 +1,9 @@
 # ninja log v5
+3084	3533	6868389352060279	Question5.exe	813807add79c98f1
 0	363	6849386997137164	CMakeFiles/Baidu.dir/main.cpp.obj	ac3092b023c4b043
+3474	3968	6868383767851242	Question3.exe	53705d59d3012001
 366	541	6849386998887146	Baidu.exe	3916112284f621e8
+10	3301	6868385690392536	CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj	255a2f1239b9be12
 4	347	6852609127451015	CMakeFiles/maxPower.dir/SecondWeek/maxPower.cpp.obj	c62dcc3592ba60e2
 3	394	6858026711751794	CMakeFiles/test.dir/SecondWeek/test.cpp.obj	bae91e097aa8fe3
 4	451	6849426246512585	CMakeFiles/NoRepeatString.dir/SecondWeek/NoRepeatString.cpp.obj	35678b00abf604a8
@@ -19,16 +22,5 @@
 11	3538	6868367582654408	CMakeFiles/Question2.dir/FourthWeek/Question2.cpp.obj	7e3fef6001f99b95
 3541	4026	6868367587475487	Question2.exe	300a6fe701b3f20c
 2	3472	6868383762970129	CMakeFiles/Question3.dir/FourthWeek/Question3.cpp.obj	ada2828d48d104f2
-3474	3968	6868383767851242	Question3.exe	53705d59d3012001
-1	3360	6868384074774116	CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj	255a2f1239b9be12
-3362	3805	6868384079165268	Question4.exe	b38fb74f271f5439
-10	3493	6868384349679958	CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj	255a2f1239b9be12
-3497	4003	6868384354671045	Question4.exe	b38fb74f271f5439
-14	3277	6868384818687128	CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj	255a2f1239b9be12
-3279	3764	6868384823508376	Question4.exe	b38fb74f271f5439
-9	3240	6868385167046426	CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj	255a2f1239b9be12
-3242	3693	6868385171517426	Question4.exe	b38fb74f271f5439
-10	3301	6868385690392536	CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj	255a2f1239b9be12
 3304	3788	6868385695203668	Question4.exe	b38fb74f271f5439
 1	3082	6868389347599269	CMakeFiles/Question5.dir/FourthWeek/Question5.cpp.obj	17f4370665b390bf
-3084	3533	6868389352060279	Question5.exe	813807add79c98f1
