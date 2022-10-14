@@ -832,6 +832,39 @@ build FifthQuestion1.exe: CXX_EXECUTABLE_LINKER__FifthQuestion1_Debug CMakeFiles
   TARGET_IMPLIB = libFifthQuestion1.dll.a
   TARGET_PDB = FifthQuestion1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FifthQ2
+
+
+#############################################
+# Order-only phony target for FifthQ2
+
+build cmake_object_order_depends_target_FifthQ2: phony || CMakeFiles/FifthQ2.dir
+
+build CMakeFiles/FifthQ2.dir/FifthWeek/FifthQ2.cpp.obj: CXX_COMPILER__FifthQ2_Debug D$:/Baidu/FifthWeek/FifthQ2.cpp || cmake_object_order_depends_target_FifthQ2
+  DEP_FILE = CMakeFiles\FifthQ2.dir\FifthWeek\FifthQ2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\FifthQ2.dir
+  OBJECT_FILE_DIR = CMakeFiles\FifthQ2.dir\FifthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FifthQ2
+
+
+#############################################
+# Link the executable FifthQ2.exe
+
+build FifthQ2.exe: CXX_EXECUTABLE_LINKER__FifthQ2_Debug CMakeFiles/FifthQ2.dir/FifthWeek/FifthQ2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FifthQ2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FifthQ2.exe
+  TARGET_IMPLIB = libFifthQ2.dll.a
+  TARGET_PDB = FifthQ2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -859,6 +892,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Target aliases.
 
 build A+BProblem: phony A+BProblem.exe
+
+build FifthQ2: phony FifthQ2.exe
 
 build FifthQuestion1: phony FifthQuestion1.exe
 
@@ -914,7 +949,7 @@ build test03: phony test03.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe test03.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe test03.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe
 
 # =============================================================================
 # Built-in targets
