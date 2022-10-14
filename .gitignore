@@ -10,18 +10,14 @@ gen
 !/SecondWeek/
 !/cmake-build-debug/
 !/.gitignore
-/SecondWeek/A+BProblem.cpp
 /cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f71b1cbfad4433d68611.json
 /cmake-build-debug/.cmake/api/v1/reply/index-2022-09-19T03-17-51-0235.json
-/SecondWeek/maxPower.cpp
 /cmake-build-debug/CMakeFiles/maxPower.dir/SecondWeek/maxPower.cpp.obj
 /cmake-build-debug/maxPower.exe
-/SecondWeek/StandInQueue.cpp
 /cmake-build-debug/.cmake/api/v1/reply/target-A+BProblem-Debug-b930b56b907fc19ff27d.json
 /cmake-build-debug/.cmake/api/v1/reply/target-maxPower-Debug-70ab5c1a5474cb1e4c3d.json
 /cmake-build-debug/.cmake/api/v1/reply/target-StandInQueue-Debug-e8e80ac3e0183fac2075.json
 /cmake-build-debug/.cmake/api/v1/reply/target-test-Debug-4c3204defe8679153184.json
-/SecondWeek/test.cpp
 /cmake-build-debug/CMakeFiles/test.dir/SecondWeek/test.cpp.obj
 /cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-14251db5785a467d91b7.json
 /cmake-build-debug/.cmake/api/v1/reply/index-2022-09-23T08-12-06-0666.json
@@ -45,7 +41,6 @@ gen
 /cmake-build-debug/.cmake/api/v1/reply/target-question1-Debug-9de0716ee51ec33b9344.json
 /cmake-build-debug/.cmake/api/v1/reply/target-question2-Debug-40ce4fb357a6e5aed7e4.json
 /cmake-build-debug/.cmake/api/v1/reply/target-question4-Debug-6a140bc398e9784a453f.json
-/thirdweek/test03.cpp
 /cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8ed00c62ce489df385ca.json
 /cmake-build-debug/.cmake/api/v1/reply/index-2022-09-28T10-50-14-0556.json
 /cmake-build-debug/.cmake/api/v1/reply/target-Question1-Debug-6a09ff4b1a235e41d93e.json
