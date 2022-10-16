@@ -602,39 +602,6 @@ build test02.exe: CXX_EXECUTABLE_LINKER__test02_Debug CMakeFiles/test02.dir/thir
   TARGET_PDB = test02.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test03
-
-
-#############################################
-# Order-only phony target for test03
-
-build cmake_object_order_depends_target_test03: phony || CMakeFiles/test03.dir
-
-build CMakeFiles/test03.dir/thirdweek/test03.cpp.obj: CXX_COMPILER__test03_Debug D$:/Baidu/thirdweek/test03.cpp || cmake_object_order_depends_target_test03
-  DEP_FILE = CMakeFiles\test03.dir\thirdweek\test03.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\test03.dir
-  OBJECT_FILE_DIR = CMakeFiles\test03.dir\thirdweek
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target test03
-
-
-#############################################
-# Link the executable test03.exe
-
-build test03.exe: CXX_EXECUTABLE_LINKER__test03_Debug CMakeFiles/test03.dir/thirdweek/test03.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test03.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = test03.exe
-  TARGET_IMPLIB = libtest03.dll.a
-  TARGET_PDB = test03.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target Question1
 
 
@@ -865,6 +832,72 @@ build FifthQ2.exe: CXX_EXECUTABLE_LINKER__FifthQ2_Debug CMakeFiles/FifthQ2.dir/F
   TARGET_IMPLIB = libFifthQ2.dll.a
   TARGET_PDB = FifthQ2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FifthQ4
+
+
+#############################################
+# Order-only phony target for FifthQ4
+
+build cmake_object_order_depends_target_FifthQ4: phony || CMakeFiles/FifthQ4.dir
+
+build CMakeFiles/FifthQ4.dir/FifthWeek/FifthQ4.cpp.obj: CXX_COMPILER__FifthQ4_Debug D$:/Baidu/FifthWeek/FifthQ4.cpp || cmake_object_order_depends_target_FifthQ4
+  DEP_FILE = CMakeFiles\FifthQ4.dir\FifthWeek\FifthQ4.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\FifthQ4.dir
+  OBJECT_FILE_DIR = CMakeFiles\FifthQ4.dir\FifthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FifthQ4
+
+
+#############################################
+# Link the executable FifthQ4.exe
+
+build FifthQ4.exe: CXX_EXECUTABLE_LINKER__FifthQ4_Debug CMakeFiles/FifthQ4.dir/FifthWeek/FifthQ4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FifthQ4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FifthQ4.exe
+  TARGET_IMPLIB = libFifthQ4.dll.a
+  TARGET_PDB = FifthQ4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FifthQ3
+
+
+#############################################
+# Order-only phony target for FifthQ3
+
+build cmake_object_order_depends_target_FifthQ3: phony || CMakeFiles/FifthQ3.dir
+
+build CMakeFiles/FifthQ3.dir/FifthWeek/FifthQ3.cpp.obj: CXX_COMPILER__FifthQ3_Debug D$:/Baidu/FifthWeek/FifthQ3.cpp || cmake_object_order_depends_target_FifthQ3
+  DEP_FILE = CMakeFiles\FifthQ3.dir\FifthWeek\FifthQ3.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\FifthQ3.dir
+  OBJECT_FILE_DIR = CMakeFiles\FifthQ3.dir\FifthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FifthQ3
+
+
+#############################################
+# Link the executable FifthQ3.exe
+
+build FifthQ3.exe: CXX_EXECUTABLE_LINKER__FifthQ3_Debug CMakeFiles/FifthQ3.dir/FifthWeek/FifthQ3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FifthQ3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FifthQ3.exe
+  TARGET_IMPLIB = libFifthQ3.dll.a
+  TARGET_PDB = FifthQ3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -894,6 +927,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 build A+BProblem: phony A+BProblem.exe
 
 build FifthQ2: phony FifthQ2.exe
+
+build FifthQ3: phony FifthQ3.exe
+
+build FifthQ4: phony FifthQ4.exe
 
 build FifthQuestion1: phony FifthQuestion1.exe
 
@@ -939,8 +976,6 @@ build test01: phony test01.exe
 
 build test02: phony test02.exe
 
-build test03: phony test03.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -949,7 +984,7 @@ build test03: phony test03.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe test03.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe
 
 # =============================================================================
 # Built-in targets
