@@ -10,6 +10,7 @@
 453	658	6849426248548634	NoRepeatString.exe	25a84d0e8a20aaab
 348	534	6852609129326014	maxPower.exe	8014dbc3d2d15727
 4	344	6858073085731437	CMakeFiles/simplifyString.dir/thirdweek/simplifyString.cpp.obj	40758279acda0195
+404	601	6878726717328495	shujuwajue.exe	77c0036f95d73f3c
 345	569	6858073087930238	simplifyString.exe	1adfb52dce1bbca2
 3	368	6858072512655938	CMakeFiles/test01.dir/thirdweek/test01.cpp.obj	396c5d9211988972
 369	552	6858072514454138	test01.exe	8ad0e111d9525ba9
@@ -30,3 +31,6 @@
 463	660	6874577930639318	FifthQ4.exe	f3832362318f28c9
 3	480	6874503182628263	CMakeFiles/FifthQ2.dir/FifthWeek/FifthQ2.cpp.obj	e736956d1962ad39
 3	462	6874577928674301	CMakeFiles/FifthQ4.dir/FifthWeek/FifthQ4.cpp.obj	1a2a659359badbc6
+1	629	6878689209360869	CMakeFiles/shujuwajueqimo.dir/FifthWeek/shujuwajueqimo.cpp.obj	e52f711d7f0202a
+630	948	6878689212531594	shujuwajueqimo.exe	f562a165b48dcb98
+3	403	6878726715388068	CMakeFiles/shujuwajue.dir/shujuwajue.cpp.obj	293a9d88027b710e
