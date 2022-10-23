@@ -898,6 +898,138 @@ build FifthQ3.exe: CXX_EXECUTABLE_LINKER__FifthQ3_Debug CMakeFiles/FifthQ3.dir/F
   TARGET_IMPLIB = libFifthQ3.dll.a
   TARGET_PDB = FifthQ3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target SixthQ4
+
+
+#############################################
+# Order-only phony target for SixthQ4
+
+build cmake_object_order_depends_target_SixthQ4: phony || CMakeFiles/SixthQ4.dir
+
+build CMakeFiles/SixthQ4.dir/SixthWeek/SixthQ4.cpp.obj: CXX_COMPILER__SixthQ4_Debug D$:/Baidu/SixthWeek/SixthQ4.cpp || cmake_object_order_depends_target_SixthQ4
+  DEP_FILE = CMakeFiles\SixthQ4.dir\SixthWeek\SixthQ4.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\SixthQ4.dir
+  OBJECT_FILE_DIR = CMakeFiles\SixthQ4.dir\SixthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SixthQ4
+
+
+#############################################
+# Link the executable SixthQ4.exe
+
+build SixthQ4.exe: CXX_EXECUTABLE_LINKER__SixthQ4_Debug CMakeFiles/SixthQ4.dir/SixthWeek/SixthQ4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SixthQ4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SixthQ4.exe
+  TARGET_IMPLIB = libSixthQ4.dll.a
+  TARGET_PDB = SixthQ4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SixthQ2
+
+
+#############################################
+# Order-only phony target for SixthQ2
+
+build cmake_object_order_depends_target_SixthQ2: phony || CMakeFiles/SixthQ2.dir
+
+build CMakeFiles/SixthQ2.dir/SixthWeek/SixthQ2.cpp.obj: CXX_COMPILER__SixthQ2_Debug D$:/Baidu/SixthWeek/SixthQ2.cpp || cmake_object_order_depends_target_SixthQ2
+  DEP_FILE = CMakeFiles\SixthQ2.dir\SixthWeek\SixthQ2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\SixthQ2.dir
+  OBJECT_FILE_DIR = CMakeFiles\SixthQ2.dir\SixthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SixthQ2
+
+
+#############################################
+# Link the executable SixthQ2.exe
+
+build SixthQ2.exe: CXX_EXECUTABLE_LINKER__SixthQ2_Debug CMakeFiles/SixthQ2.dir/SixthWeek/SixthQ2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SixthQ2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SixthQ2.exe
+  TARGET_IMPLIB = libSixthQ2.dll.a
+  TARGET_PDB = SixthQ2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SixthQ3
+
+
+#############################################
+# Order-only phony target for SixthQ3
+
+build cmake_object_order_depends_target_SixthQ3: phony || CMakeFiles/SixthQ3.dir
+
+build CMakeFiles/SixthQ3.dir/SixthWeek/SixthQ3.cpp.obj: CXX_COMPILER__SixthQ3_Debug D$:/Baidu/SixthWeek/SixthQ3.cpp || cmake_object_order_depends_target_SixthQ3
+  DEP_FILE = CMakeFiles\SixthQ3.dir\SixthWeek\SixthQ3.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\SixthQ3.dir
+  OBJECT_FILE_DIR = CMakeFiles\SixthQ3.dir\SixthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SixthQ3
+
+
+#############################################
+# Link the executable SixthQ3.exe
+
+build SixthQ3.exe: CXX_EXECUTABLE_LINKER__SixthQ3_Debug CMakeFiles/SixthQ3.dir/SixthWeek/SixthQ3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SixthQ3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SixthQ3.exe
+  TARGET_IMPLIB = libSixthQ3.dll.a
+  TARGET_PDB = SixthQ3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SixthQq
+
+
+#############################################
+# Order-only phony target for SixthQq
+
+build cmake_object_order_depends_target_SixthQq: phony || CMakeFiles/SixthQq.dir
+
+build CMakeFiles/SixthQq.dir/SixthWeek/SixthQ1.cpp.obj: CXX_COMPILER__SixthQq_Debug D$:/Baidu/SixthWeek/SixthQ1.cpp || cmake_object_order_depends_target_SixthQq
+  DEP_FILE = CMakeFiles\SixthQq.dir\SixthWeek\SixthQ1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\SixthQq.dir
+  OBJECT_FILE_DIR = CMakeFiles\SixthQq.dir\SixthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SixthQq
+
+
+#############################################
+# Link the executable SixthQq.exe
+
+build SixthQq.exe: CXX_EXECUTABLE_LINKER__SixthQq_Debug CMakeFiles/SixthQq.dir/SixthWeek/SixthQ1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SixthQq.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SixthQq.exe
+  TARGET_IMPLIB = libSixthQq.dll.a
+  TARGET_PDB = SixthQq.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -948,6 +1080,14 @@ build Question4: phony Question4.exe
 
 build Question5: phony Question5.exe
 
+build SixthQ2: phony SixthQ2.exe
+
+build SixthQ3: phony SixthQ3.exe
+
+build SixthQ4: phony SixthQ4.exe
+
+build SixthQq: phony SixthQq.exe
+
 build StandInQueue: phony StandInQueue.exe
 
 build chess: phony chess.exe
@@ -984,7 +1124,7 @@ build test02: phony test02.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe SixthQ4.exe SixthQ2.exe SixthQ3.exe SixthQq.exe
 
 # =============================================================================
 # Built-in targets

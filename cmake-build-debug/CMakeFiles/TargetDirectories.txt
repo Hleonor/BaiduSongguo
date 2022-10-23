@@ -24,5 +24,9 @@ D:/Baidu/cmake-build-debug/CMakeFiles/FifthQuestion1.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/FifthQ2.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/FifthQ4.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/FifthQ3.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/SixthQ4.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/SixthQ2.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/SixthQ3.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/SixthQq.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
