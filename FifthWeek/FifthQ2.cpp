@@ -6,7 +6,7 @@
 #include <algorithm>
 
 using namespace std;
-bool cmp(int a , int b)
+int cmp(const void *a, const void *b)
 {
     return a > b;
 }
