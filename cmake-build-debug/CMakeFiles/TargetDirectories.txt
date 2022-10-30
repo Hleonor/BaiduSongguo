@@ -32,5 +32,6 @@ D:/Baidu/cmake-build-debug/CMakeFiles/SeventhQ2.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/SevenQ3.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/SeventhQ4.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/SeventhQ1.dir
+D:/Baidu/cmake-build-debug/CMakeFiles/Sixth6Q2_new.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Baidu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
