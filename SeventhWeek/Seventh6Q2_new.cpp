@@ -26,7 +26,7 @@ void findDimond(int x)
         {
              for (int k = 1; k <= n; k++)
              {
-                 if (map[node[i]][k] && map[node[j]][k] && k != x)
+                 if (map[node[i]][k] && map[node[j]][k] && k != x) // k != x保证不回头
                  {
                      sumOfDimond++;
                  }
