@@ -1228,6 +1228,39 @@ build Seventh6Q2_new.exe: CXX_EXECUTABLE_LINKER__Seventh6Q2_new_Debug CMakeFiles
   TARGET_IMPLIB = libSeventh6Q2_new.dll.a
   TARGET_PDB = Seventh6Q2_new.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target SeventhQ3_new
+
+
+#############################################
+# Order-only phony target for SeventhQ3_new
+
+build cmake_object_order_depends_target_SeventhQ3_new: phony || CMakeFiles/SeventhQ3_new.dir
+
+build CMakeFiles/SeventhQ3_new.dir/SeventhWeek/SeventhQ3_new.cpp.obj: CXX_COMPILER__SeventhQ3_new_Debug D$:/Baidu/SeventhWeek/SeventhQ3_new.cpp || cmake_object_order_depends_target_SeventhQ3_new
+  DEP_FILE = CMakeFiles\SeventhQ3_new.dir\SeventhWeek\SeventhQ3_new.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\SeventhQ3_new.dir
+  OBJECT_FILE_DIR = CMakeFiles\SeventhQ3_new.dir\SeventhWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SeventhQ3_new
+
+
+#############################################
+# Link the executable SeventhQ3_new.exe
+
+build SeventhQ3_new.exe: CXX_EXECUTABLE_LINKER__SeventhQ3_new_Debug CMakeFiles/SeventhQ3_new.dir/SeventhWeek/SeventhQ3_new.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SeventhQ3_new.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SeventhQ3_new.exe
+  TARGET_IMPLIB = libSeventhQ3_new.dll.a
+  TARGET_PDB = SeventhQ3_new.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1286,6 +1319,8 @@ build SeventhQ1: phony SeventhQ1.exe
 
 build SeventhQ2: phony SeventhQ2.exe
 
+build SeventhQ3_new: phony SeventhQ3_new.exe
+
 build SeventhQ4: phony SeventhQ4.exe
 
 build Sixth6Q2_new: phony Sixth6Q2_new.exe
@@ -1334,7 +1369,7 @@ build test02: phony test02.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe SixthQ4.exe SixthQ2.exe SixthQ3.exe SixthQq.exe SeventhQ2.exe SevenQ3.exe SeventhQ4.exe SeventhQ1.exe Sixth6Q2_new.exe Seventh6Q2_new.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe SixthQ4.exe SixthQ2.exe SixthQ3.exe SixthQq.exe SeventhQ2.exe SevenQ3.exe SeventhQ4.exe SeventhQ1.exe Sixth6Q2_new.exe Seventh6Q2_new.exe SeventhQ3_new.exe
 
 # =============================================================================
 # Built-in targets
