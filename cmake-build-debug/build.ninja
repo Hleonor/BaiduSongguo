@@ -1262,37 +1262,103 @@ build SeventhQ3_new.exe: CXX_EXECUTABLE_LINKER__SeventhQ3_new_Debug CMakeFiles/S
   TARGET_PDB = SeventhQ3_new.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target GPA
+# Object build statements for EXECUTABLE target EighthQ1
 
 
 #############################################
-# Order-only phony target for GPA
+# Order-only phony target for EighthQ1
 
-build cmake_object_order_depends_target_GPA: phony || CMakeFiles/GPA.dir
+build cmake_object_order_depends_target_EighthQ1: phony || CMakeFiles/EighthQ1.dir
 
-build CMakeFiles/GPA.dir/GPA.cpp.obj: CXX_COMPILER__GPA_Debug D$:/Baidu/GPA.cpp || cmake_object_order_depends_target_GPA
-  DEP_FILE = CMakeFiles\GPA.dir\GPA.cpp.obj.d
+build CMakeFiles/EighthQ1.dir/EighthWeek/EighthQ1.cpp.obj: CXX_COMPILER__EighthQ1_Debug D$:/Baidu/EighthWeek/EighthQ1.cpp || cmake_object_order_depends_target_EighthQ1
+  DEP_FILE = CMakeFiles\EighthQ1.dir\EighthWeek\EighthQ1.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\GPA.dir
-  OBJECT_FILE_DIR = CMakeFiles\GPA.dir
+  OBJECT_DIR = CMakeFiles\EighthQ1.dir
+  OBJECT_FILE_DIR = CMakeFiles\EighthQ1.dir\EighthWeek
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target GPA
+# Link build statements for EXECUTABLE target EighthQ1
 
 
 #############################################
-# Link the executable GPA.exe
+# Link the executable EighthQ1.exe
 
-build GPA.exe: CXX_EXECUTABLE_LINKER__GPA_Debug CMakeFiles/GPA.dir/GPA.cpp.obj
+build EighthQ1.exe: CXX_EXECUTABLE_LINKER__EighthQ1_Debug CMakeFiles/EighthQ1.dir/EighthWeek/EighthQ1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\GPA.dir
+  OBJECT_DIR = CMakeFiles\EighthQ1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = GPA.exe
-  TARGET_IMPLIB = libGPA.dll.a
-  TARGET_PDB = GPA.exe.dbg
+  TARGET_FILE = EighthQ1.exe
+  TARGET_IMPLIB = libEighthQ1.dll.a
+  TARGET_PDB = EighthQ1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EighthQ2
+
+
+#############################################
+# Order-only phony target for EighthQ2
+
+build cmake_object_order_depends_target_EighthQ2: phony || CMakeFiles/EighthQ2.dir
+
+build CMakeFiles/EighthQ2.dir/EighthWeek/EighthQ2.cpp.obj: CXX_COMPILER__EighthQ2_Debug D$:/Baidu/EighthWeek/EighthQ2.cpp || cmake_object_order_depends_target_EighthQ2
+  DEP_FILE = CMakeFiles\EighthQ2.dir\EighthWeek\EighthQ2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\EighthQ2.dir
+  OBJECT_FILE_DIR = CMakeFiles\EighthQ2.dir\EighthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EighthQ2
+
+
+#############################################
+# Link the executable EighthQ2.exe
+
+build EighthQ2.exe: CXX_EXECUTABLE_LINKER__EighthQ2_Debug CMakeFiles/EighthQ2.dir/EighthWeek/EighthQ2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EighthQ2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EighthQ2.exe
+  TARGET_IMPLIB = libEighthQ2.dll.a
+  TARGET_PDB = EighthQ2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EighthQ3
+
+
+#############################################
+# Order-only phony target for EighthQ3
+
+build cmake_object_order_depends_target_EighthQ3: phony || CMakeFiles/EighthQ3.dir
+
+build CMakeFiles/EighthQ3.dir/EighthWeek/EighthQ3.cpp.obj: CXX_COMPILER__EighthQ3_Debug D$:/Baidu/EighthWeek/EighthQ3.cpp || cmake_object_order_depends_target_EighthQ3
+  DEP_FILE = CMakeFiles\EighthQ3.dir\EighthWeek\EighthQ3.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\EighthQ3.dir
+  OBJECT_FILE_DIR = CMakeFiles\EighthQ3.dir\EighthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EighthQ3
+
+
+#############################################
+# Link the executable EighthQ3.exe
+
+build EighthQ3.exe: CXX_EXECUTABLE_LINKER__EighthQ3_Debug CMakeFiles/EighthQ3.dir/EighthWeek/EighthQ3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EighthQ3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EighthQ3.exe
+  TARGET_IMPLIB = libEighthQ3.dll.a
+  TARGET_PDB = EighthQ3.exe.dbg
 
 
 #############################################
@@ -1322,6 +1388,12 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build A+BProblem: phony A+BProblem.exe
 
+build EighthQ1: phony EighthQ1.exe
+
+build EighthQ2: phony EighthQ2.exe
+
+build EighthQ3: phony EighthQ3.exe
+
 build FifthQ2: phony FifthQ2.exe
 
 build FifthQ3: phony FifthQ3.exe
@@ -1329,8 +1401,6 @@ build FifthQ3: phony FifthQ3.exe
 build FifthQ4: phony FifthQ4.exe
 
 build FifthQuestion1: phony FifthQuestion1.exe
-
-build GPA: phony GPA.exe
 
 build MXRCompetition: phony MXRCompetition.exe
 
@@ -1404,7 +1474,7 @@ build test02: phony test02.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe SixthQ4.exe SixthQ2.exe SixthQ3.exe SixthQq.exe SeventhQ2.exe SevenQ3.exe SeventhQ4.exe SeventhQ1.exe Sixth6Q2_new.exe Seventh6Q2_new.exe SeventhQ3_new.exe GPA.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe SixthQ4.exe SixthQ2.exe SixthQ3.exe SixthQq.exe SeventhQ2.exe SevenQ3.exe SeventhQ4.exe SeventhQ1.exe Sixth6Q2_new.exe Seventh6Q2_new.exe SeventhQ3_new.exe EighthQ1.exe EighthQ2.exe EighthQ3.exe
 
 # =============================================================================
 # Built-in targets

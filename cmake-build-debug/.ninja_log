@@ -3,8 +3,9 @@
 0	363	6849386997137164	CMakeFiles/Baidu.dir/main.cpp.obj	ac3092b023c4b043
 3474	3968	6868383767851242	Question3.exe	53705d59d3012001
 366	541	6849386998887146	Baidu.exe	3916112284f621e8
-10	3301	6868385690392536	CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj	255a2f1239b9be12
 4	347	6852609127451015	CMakeFiles/maxPower.dir/SecondWeek/maxPower.cpp.obj	c62dcc3592ba60e2
+1	465	6891714345613758	CMakeFiles/GPA.dir/GPA.cpp.obj	aa310d815112b786
+10	3301	6868385690392536	CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj	255a2f1239b9be12
 3	394	6858026711751794	CMakeFiles/test.dir/SecondWeek/test.cpp.obj	bae91e097aa8fe3
 4	451	6849426246512585	CMakeFiles/NoRepeatString.dir/SecondWeek/NoRepeatString.cpp.obj	35678b00abf604a8
 453	658	6849426248548634	NoRepeatString.exe	25a84d0e8a20aaab
@@ -38,5 +39,8 @@
 694	1111	6888478940575594	Seventh6Q2_new.exe	e027c71559d94cd4
 0	693	6888478936434365	CMakeFiles/Seventh6Q2_new.dir/SeventhWeek/Seventh6Q2_new.cpp.obj	400d8286b73f2e12
 6	579	6888491711835339	CMakeFiles/SeventhQ3_new.dir/SeventhWeek/SeventhQ3_new.cpp.obj	1c24f52a7e9f9841
-1	465	6891714345613758	CMakeFiles/GPA.dir/GPA.cpp.obj	aa310d815112b786
 466	714	6891714347957520	GPA.exe	abe3cb948c996df1
+1	2197	6891805196433825	CMakeFiles/EighthQ3.dir/EighthWeek/EighthQ3.cpp.obj	e6887e52bdac3313
+2198	2503	6891805199558791	EighthQ3.exe	48fff62a0e22933e
+6	2182	6891805913186393	CMakeFiles/EighthQ3.dir/EighthWeek/EighthQ3.cpp.obj	e6887e52bdac3313
+2184	2495	6891805916467665	EighthQ3.exe	48fff62a0e22933e
