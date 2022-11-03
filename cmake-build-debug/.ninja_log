@@ -16,6 +16,7 @@
 369	552	6858072514454138	test01.exe	8ad0e111d9525ba9
 3	354	6858157270282625	CMakeFiles/question4.dir/thirdweek/question4.cpp.obj	10c697cc445b139a
 356	544	6858157272143171	question4.exe	3984aeda1fd7ecc8
+581	934	6888491715256299	SeventhQ3_new.exe	bb2469b14ebb8c7f
 3	476	6860579318736335	CMakeFiles/test03.dir/thirdweek/test03.cpp.obj	706a23aecb23fdb5
 477	683	6860579320766796	test03.exe	24aa300170a120c7
 4	1002	6863362306211064	CMakeFiles/Question1.dir/FourthWeek/Question1.cpp.obj	168309108a53caa0
@@ -36,13 +37,6 @@
 3	403	6878726715388068	CMakeFiles/shujuwajue.dir/shujuwajue.cpp.obj	293a9d88027b710e
 694	1111	6888478940575594	Seventh6Q2_new.exe	e027c71559d94cd4
 0	693	6888478936434365	CMakeFiles/Seventh6Q2_new.dir/SeventhWeek/Seventh6Q2_new.cpp.obj	400d8286b73f2e12
-1	738	6888488783193125	CMakeFiles/SeventhQ3_new.dir/SeventhWeek/SeventhQ3_new.cpp.obj	1c24f52a7e9f9841
-741	1176	6888488787524160	SeventhQ3_new.exe	bb2469b14ebb8c7f
-4	880	6888489349223702	CMakeFiles/SeventhQ3_new.dir/SeventhWeek/SeventhQ3_new.cpp.obj	1c24f52a7e9f9841
-882	1261	6888489353034365	SeventhQ3_new.exe	bb2469b14ebb8c7f
-5	676	6888490097758648	CMakeFiles/SeventhQ3_new.dir/SeventhWeek/SeventhQ3_new.cpp.obj	1c24f52a7e9f9841
-680	1110	6888490102161529	SeventhQ3_new.exe	bb2469b14ebb8c7f
-6	836	6888490716033689	CMakeFiles/SeventhQ3_new.dir/SeventhWeek/SeventhQ3_new.cpp.obj	1c24f52a7e9f9841
-838	1135	6888490718954559	SeventhQ3_new.exe	bb2469b14ebb8c7f
 6	579	6888491711835339	CMakeFiles/SeventhQ3_new.dir/SeventhWeek/SeventhQ3_new.cpp.obj	1c24f52a7e9f9841
-581	934	6888491715256299	SeventhQ3_new.exe	bb2469b14ebb8c7f
+1	465	6891714345613758	CMakeFiles/GPA.dir/GPA.cpp.obj	aa310d815112b786
+466	714	6891714347957520	GPA.exe	abe3cb948c996df1
