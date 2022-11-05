@@ -1,78 +1,92 @@
-//
-// Created by Hleonor on 2022-11-03.
-//
 #include<bits/stdc++.h>
-#include <cstring>
 
 using namespace std;
+typedef long long LL;
+const int maxn = 1000010;
 
-int phai[10010] ={0};
+int n;
+int phi[maxn];
 
-/*int Euler(int N)
+void Euler()
 {
-    int ret = N;
-    for(int i = 2; i * i <= N; i++) // 因为是找质数，所以只需要找到根号N就行
+    phi[1] = 1;
+    for (int i = 2; i < maxn; i++)
     {
-        if(N % i == 0) // 如果i是N的因子，则应该除去i的贡献；第一个找到的因子必然是最小的，是质数的
+        if (!phi[i])
         {
-            ret = ret * (i - 1) / i;
-            while(N % i == 0) // 这部分对应：n=p1^a1*p2^a2*...*pk^ak，这一步的目的是找到下一个不同的质因子，去掉p1^a1的贡献
+            for (int j = i; j < maxn; j += i)
             {
-                N /= i;
-            }
-        }
-    }
-    if(N > 1) // 会出现这一步是因为最后一个质因子可能是大于根号N的，所以需要单独处理
-    {
-        ret = ret * (N - 1) / N;
-    }
-    return ret;
-}*/
-
-void Euler(int n) // 打表法
-{
-    for (int i = 2; i <= n; i++)
-    {
-        if (phai[i] == 0) // 如果phai[i]没处理过，则是没有被之前的素数处理过，这里保证只处理质因数
-        {
-            for (int j = i; j <= n; j += i) // 处理j以及j的倍数
-            {
-                if (phai[j] == 0) // 如果phai[j]没处理过，用欧拉函数进处理
+                if (!phi[j]) phi[j] = j;
                 {
-                    phai[j] = j;
+                    phi[j] = phi[j] / i * (i - 1);
                 }
-                phai[j] = phai[j] / i * (i - 1); // 因为j是i的倍数，所以phai[j]要消除i的贡献
             }
         }
     }
 }
 
-long a[10010];
+struct node
+{
+    int id, eu; // eu值是欧拉函数值，id是编号
+    node(int i = 0, int e = 0)
+    {
+        id = i; eu = e;
+    }
+};
+
+bool cmp(const node& n1, const node& n2)
+{
+    if (n1.eu == n2.eu) // 如果欧拉函数值相等，按照编号从小到大排序
+    {
+        return n1.id < n2.id;
+    }
+    return n1.eu < n2.eu; // 欧拉函数值从小到大排序
+}
+
+node p[maxn]; // 存储欧拉函数值和编号
+int rk[maxn]; // 存储某个欧拉值对应的编号，含义和p数组相反，rk[欧拉值] = 对应的数字
+int a[10010];
+
 int main()
 {
-    int n;
-    scanf("%d", &n);
-    for (int i = 1; i <= n; i++)
+    Euler();
+    phi[1] = 0;
+    for (int i = 1; i < maxn; i++)
     {
-        scanf("%ld", &a[i]);
+        p[i].id = i;
+        p[i].eu = phi[i];
+        rk[i] = 0x3fffffff; // 初始化为一个很大的数
     }
-    int sumOfbi = 0;
-    for (int i = 1; i <= n; i++) // 对每一个ai
+    sort(p + 1, p + maxn, cmp); // 按照欧拉函数值从小到大排序
+    int cnt = -1;
+    for (int i = 1; i < maxn; i++)
     {
-        int min_bi = INT_MAX;
-        for (int j = 2; j <= 1000; j++) // 从1开始挨个求j的欧拉函数值
+        if (p[i].eu > cnt)
         {
-            Euler(j);
-            if (phai[j] >= a[i] && phai[j] < min_bi)
-            {
-                min_bi = phai[j];
-            }
-            memset(phai, 0, sizeof(int));
+            cnt = p[i].eu;
+            rk[cnt] = p[i].id; // 更新cnt更大的欧拉函数值对应的编号，编号的含义就是欧拉值随对应的那个数字
         }
-        sumOfbi += min_bi;
-        memset(phai, 0, sizeof(int));
+        else
+        {
+            continue;
+        }
     }
-    printf("%d", sumOfbi);
+    /*
+     * 紧凑，因为要求的是最接近ai的值，所以只需要找到最近的那一个数其欧拉函数值为待求的下标即可
+     * 例如不存在某个数字的欧拉函数值为3，但是存在欧拉函数值为4的数字，那么就可以直接用4来代替3
+     */
+    for (int i = maxn - 2; i >= 1; i--) // 从后往前紧凑
+    {
+        rk[i] = min(rk[i], rk[i + 1]);
+    }
+    int n;
+    cin >> n;
+    LL ans = 0;
+    for (int i = 0; i < n; i++)
+    {
+        cin >> a[i];
+        ans += rk[a[i]];
+    }
+    cout << ans;
     return 0;
-
 }
