@@ -16,10 +16,11 @@ void Euler()
         {
             for (int j = i; j < maxn; j += i)
             {
-                if (!phi[j]) phi[j] = j;
+                if (!phi[j])
                 {
-                    phi[j] = phi[j] / i * (i - 1);
+                    phi[j] = j;
                 }
+                phi[j] = phi[j] / i * (i - 1); // 消除i的贡献
             }
         }
     }
