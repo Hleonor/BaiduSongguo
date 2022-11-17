@@ -1426,6 +1426,105 @@ build Q1.exe: CXX_EXECUTABLE_LINKER__Q1_Debug CMakeFiles/Q1.dir/NinthWeek/Q1.cpp
   TARGET_IMPLIB = libQ1.dll.a
   TARGET_PDB = Q1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Q4
+
+
+#############################################
+# Order-only phony target for Q4
+
+build cmake_object_order_depends_target_Q4: phony || CMakeFiles/Q4.dir
+
+build CMakeFiles/Q4.dir/NinthWeek/Q4.cpp.obj: CXX_COMPILER__Q4_Debug D$:/Baidu/NinthWeek/Q4.cpp || cmake_object_order_depends_target_Q4
+  DEP_FILE = CMakeFiles\Q4.dir\NinthWeek\Q4.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Q4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Q4.dir\NinthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q4
+
+
+#############################################
+# Link the executable Q4.exe
+
+build Q4.exe: CXX_EXECUTABLE_LINKER__Q4_Debug CMakeFiles/Q4.dir/NinthWeek/Q4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Q4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Q4.exe
+  TARGET_IMPLIB = libQ4.dll.a
+  TARGET_PDB = Q4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Q5
+
+
+#############################################
+# Order-only phony target for Q5
+
+build cmake_object_order_depends_target_Q5: phony || CMakeFiles/Q5.dir
+
+build CMakeFiles/Q5.dir/NinthWeek/Q5.cpp.obj: CXX_COMPILER__Q5_Debug D$:/Baidu/NinthWeek/Q5.cpp || cmake_object_order_depends_target_Q5
+  DEP_FILE = CMakeFiles\Q5.dir\NinthWeek\Q5.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Q5.dir
+  OBJECT_FILE_DIR = CMakeFiles\Q5.dir\NinthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q5
+
+
+#############################################
+# Link the executable Q5.exe
+
+build Q5.exe: CXX_EXECUTABLE_LINKER__Q5_Debug CMakeFiles/Q5.dir/NinthWeek/Q5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Q5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Q5.exe
+  TARGET_IMPLIB = libQ5.dll.a
+  TARGET_PDB = Q5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Q3
+
+
+#############################################
+# Order-only phony target for Q3
+
+build cmake_object_order_depends_target_Q3: phony || CMakeFiles/Q3.dir
+
+build CMakeFiles/Q3.dir/NinthWeek/Q3.cpp.obj: CXX_COMPILER__Q3_Debug D$:/Baidu/NinthWeek/Q3.cpp || cmake_object_order_depends_target_Q3
+  DEP_FILE = CMakeFiles\Q3.dir\NinthWeek\Q3.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Q3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Q3.dir\NinthWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q3
+
+
+#############################################
+# Link the executable Q3.exe
+
+build Q3.exe: CXX_EXECUTABLE_LINKER__Q3_Debug CMakeFiles/Q3.dir/NinthWeek/Q3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Q3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Q3.exe
+  TARGET_IMPLIB = libQ3.dll.a
+  TARGET_PDB = Q3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1475,6 +1574,12 @@ build MXRCompetition: phony MXRCompetition.exe
 build NoRepeatString: phony NoRepeatString.exe
 
 build Q1: phony Q1.exe
+
+build Q3: phony Q3.exe
+
+build Q4: phony Q4.exe
+
+build Q5: phony Q5.exe
 
 build Question1: phony Question1.exe
 
@@ -1544,7 +1649,7 @@ build test02: phony test02.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe SixthQ4.exe SixthQ2.exe SixthQ3.exe SixthQq.exe SeventhQ2.exe SevenQ3.exe SeventhQ4.exe SeventhQ1.exe Sixth6Q2_new.exe Seventh6Q2_new.exe SeventhQ3_new.exe EighthQ1.exe EighthQ2.exe EighthQ3.exe EighthQ4.exe Q1.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe SixthQ4.exe SixthQ2.exe SixthQ3.exe SixthQq.exe SeventhQ2.exe SevenQ3.exe SeventhQ4.exe SeventhQ1.exe Sixth6Q2_new.exe Seventh6Q2_new.exe SeventhQ3_new.exe EighthQ1.exe EighthQ2.exe EighthQ3.exe EighthQ4.exe Q1.exe Q4.exe Q5.exe Q3.exe
 
 # =============================================================================
 # Built-in targets
