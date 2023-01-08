@@ -1822,6 +1822,39 @@ build EleventhQ2.exe: CXX_EXECUTABLE_LINKER__EleventhQ2_Debug CMakeFiles/Elevent
   TARGET_IMPLIB = libEleventhQ2.dll.a
   TARGET_PDB = EleventhQ2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target mytest
+
+
+#############################################
+# Order-only phony target for mytest
+
+build cmake_object_order_depends_target_mytest: phony || CMakeFiles/mytest.dir
+
+build CMakeFiles/mytest.dir/thirdweek/mytest.cpp.obj: CXX_COMPILER__mytest_Debug D$:/Baidu/thirdweek/mytest.cpp || cmake_object_order_depends_target_mytest
+  DEP_FILE = CMakeFiles\mytest.dir\thirdweek\mytest.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles\mytest.dir
+  OBJECT_FILE_DIR = CMakeFiles\mytest.dir\thirdweek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mytest
+
+
+#############################################
+# Link the executable mytest.exe
+
+build mytest.exe: CXX_EXECUTABLE_LINKER__mytest_Debug CMakeFiles/mytest.dir/thirdweek/mytest.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\mytest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = mytest.exe
+  TARGET_IMPLIB = libmytest.dll.a
+  TARGET_PDB = mytest.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1940,6 +1973,8 @@ build matrixMultiple: phony matrixMultiple.exe
 
 build maxPower: phony maxPower.exe
 
+build mytest: phony mytest.exe
+
 build powerOf2: phony powerOf2.exe
 
 build question1: phony question1.exe
@@ -1964,7 +1999,7 @@ build test02: phony test02.exe
 #############################################
 # Folder: D:/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe SixthQ4.exe SixthQ2.exe SixthQ3.exe SixthQq.exe SeventhQ2.exe SevenQ3.exe SeventhQ4.exe SeventhQ1.exe Sixth6Q2_new.exe Seventh6Q2_new.exe SeventhQ3_new.exe EighthQ1.exe EighthQ2.exe EighthQ3.exe EighthQ4.exe Q1.exe Q4.exe Q5.exe Q3.exe TenthQ6.exe TenthQ1.exe TenthQ2.exe TenthQ3.exe TenthQ4.exe EleventhQ1.exe EleventhQ4.exe EleventhQ5.exe EleventhQ2.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe SixthQ4.exe SixthQ2.exe SixthQ3.exe SixthQq.exe SeventhQ2.exe SevenQ3.exe SeventhQ4.exe SeventhQ1.exe Sixth6Q2_new.exe Seventh6Q2_new.exe SeventhQ3_new.exe EighthQ1.exe EighthQ2.exe EighthQ3.exe EighthQ4.exe Q1.exe Q4.exe Q5.exe Q3.exe TenthQ6.exe TenthQ1.exe TenthQ2.exe TenthQ3.exe TenthQ4.exe EleventhQ1.exe EleventhQ4.exe EleventhQ5.exe EleventhQ2.exe mytest.exe
 
 # =============================================================================
 # Built-in targets
