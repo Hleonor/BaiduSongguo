@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Baidu/cmake-build-debug/
+cmake_ninja_workdir = D$:/workspace/C/Baidu/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target chess
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/Baidu/cmake-build-debug/
 
 build cmake_object_order_depends_target_chess: phony || CMakeFiles/chess.dir
 
-build CMakeFiles/chess.dir/FirstWeek/chess.cpp.obj: CXX_COMPILER__chess_Debug D$:/Baidu/FirstWeek/chess.cpp || cmake_object_order_depends_target_chess
+build CMakeFiles/chess.dir/FirstWeek/chess.cpp.obj: CXX_COMPILER__chess_Debug D$:/workspace/C/Baidu/FirstWeek/chess.cpp || cmake_object_order_depends_target_chess
   DEP_FILE = CMakeFiles\chess.dir\FirstWeek\chess.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\chess.dir
@@ -82,7 +82,7 @@ build chess.exe: CXX_EXECUTABLE_LINKER__chess_Debug CMakeFiles/chess.dir/FirstWe
 
 build cmake_object_order_depends_target_combineArr: phony || CMakeFiles/combineArr.dir
 
-build CMakeFiles/combineArr.dir/FirstWeek/combineArr.cpp.obj: CXX_COMPILER__combineArr_Debug D$:/Baidu/FirstWeek/combineArr.cpp || cmake_object_order_depends_target_combineArr
+build CMakeFiles/combineArr.dir/FirstWeek/combineArr.cpp.obj: CXX_COMPILER__combineArr_Debug D$:/workspace/C/Baidu/FirstWeek/combineArr.cpp || cmake_object_order_depends_target_combineArr
   DEP_FILE = CMakeFiles\combineArr.dir\FirstWeek\combineArr.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\combineArr.dir
@@ -115,7 +115,7 @@ build combineArr.exe: CXX_EXECUTABLE_LINKER__combineArr_Debug CMakeFiles/combine
 
 build cmake_object_order_depends_target_factorial: phony || CMakeFiles/factorial.dir
 
-build CMakeFiles/factorial.dir/FirstWeek/factorial.cpp.obj: CXX_COMPILER__factorial_Debug D$:/Baidu/FirstWeek/factorial.cpp || cmake_object_order_depends_target_factorial
+build CMakeFiles/factorial.dir/FirstWeek/factorial.cpp.obj: CXX_COMPILER__factorial_Debug D$:/workspace/C/Baidu/FirstWeek/factorial.cpp || cmake_object_order_depends_target_factorial
   DEP_FILE = CMakeFiles\factorial.dir\FirstWeek\factorial.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\factorial.dir
@@ -148,7 +148,7 @@ build factorial.exe: CXX_EXECUTABLE_LINKER__factorial_Debug CMakeFiles/factorial
 
 build cmake_object_order_depends_target_matrixMultiple: phony || CMakeFiles/matrixMultiple.dir
 
-build CMakeFiles/matrixMultiple.dir/FirstWeek/matrixMultiple.cpp.obj: CXX_COMPILER__matrixMultiple_Debug D$:/Baidu/FirstWeek/matrixMultiple.cpp || cmake_object_order_depends_target_matrixMultiple
+build CMakeFiles/matrixMultiple.dir/FirstWeek/matrixMultiple.cpp.obj: CXX_COMPILER__matrixMultiple_Debug D$:/workspace/C/Baidu/FirstWeek/matrixMultiple.cpp || cmake_object_order_depends_target_matrixMultiple
   DEP_FILE = CMakeFiles\matrixMultiple.dir\FirstWeek\matrixMultiple.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\matrixMultiple.dir
@@ -181,7 +181,7 @@ build matrixMultiple.exe: CXX_EXECUTABLE_LINKER__matrixMultiple_Debug CMakeFiles
 
 build cmake_object_order_depends_target_MXRCompetition: phony || CMakeFiles/MXRCompetition.dir
 
-build CMakeFiles/MXRCompetition.dir/FirstWeek/MXRCompetition.cpp.obj: CXX_COMPILER__MXRCompetition_Debug D$:/Baidu/FirstWeek/MXRCompetition.cpp || cmake_object_order_depends_target_MXRCompetition
+build CMakeFiles/MXRCompetition.dir/FirstWeek/MXRCompetition.cpp.obj: CXX_COMPILER__MXRCompetition_Debug D$:/workspace/C/Baidu/FirstWeek/MXRCompetition.cpp || cmake_object_order_depends_target_MXRCompetition
   DEP_FILE = CMakeFiles\MXRCompetition.dir\FirstWeek\MXRCompetition.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\MXRCompetition.dir
@@ -214,7 +214,7 @@ build MXRCompetition.exe: CXX_EXECUTABLE_LINKER__MXRCompetition_Debug CMakeFiles
 
 build cmake_object_order_depends_target_powerOf2: phony || CMakeFiles/powerOf2.dir
 
-build CMakeFiles/powerOf2.dir/FirstWeek/powerOf2.cpp.obj: CXX_COMPILER__powerOf2_Debug D$:/Baidu/FirstWeek/powerOf2.cpp || cmake_object_order_depends_target_powerOf2
+build CMakeFiles/powerOf2.dir/FirstWeek/powerOf2.cpp.obj: CXX_COMPILER__powerOf2_Debug D$:/workspace/C/Baidu/FirstWeek/powerOf2.cpp || cmake_object_order_depends_target_powerOf2
   DEP_FILE = CMakeFiles\powerOf2.dir\FirstWeek\powerOf2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\powerOf2.dir
@@ -247,7 +247,7 @@ build powerOf2.exe: CXX_EXECUTABLE_LINKER__powerOf2_Debug CMakeFiles/powerOf2.di
 
 build cmake_object_order_depends_target_NoRepeatString: phony || CMakeFiles/NoRepeatString.dir
 
-build CMakeFiles/NoRepeatString.dir/SecondWeek/NoRepeatString.cpp.obj: CXX_COMPILER__NoRepeatString_Debug D$:/Baidu/SecondWeek/NoRepeatString.cpp || cmake_object_order_depends_target_NoRepeatString
+build CMakeFiles/NoRepeatString.dir/SecondWeek/NoRepeatString.cpp.obj: CXX_COMPILER__NoRepeatString_Debug D$:/workspace/C/Baidu/SecondWeek/NoRepeatString.cpp || cmake_object_order_depends_target_NoRepeatString
   DEP_FILE = CMakeFiles\NoRepeatString.dir\SecondWeek\NoRepeatString.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\NoRepeatString.dir
@@ -280,7 +280,7 @@ build NoRepeatString.exe: CXX_EXECUTABLE_LINKER__NoRepeatString_Debug CMakeFiles
 
 build cmake_object_order_depends_target_A+BProblem: phony || CMakeFiles/A+BProblem.dir
 
-build CMakeFiles/A+BProblem.dir/SecondWeek/A+BProblem.cpp.obj: CXX_COMPILER__A.2bBProblem_Debug D$:/Baidu/SecondWeek/A+BProblem.cpp || cmake_object_order_depends_target_A+BProblem
+build CMakeFiles/A+BProblem.dir/SecondWeek/A+BProblem.cpp.obj: CXX_COMPILER__A.2bBProblem_Debug D$:/workspace/C/Baidu/SecondWeek/A+BProblem.cpp || cmake_object_order_depends_target_A+BProblem
   DEP_FILE = CMakeFiles\A+BProblem.dir\SecondWeek\A+BProblem.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\A+BProblem.dir
@@ -313,7 +313,7 @@ build A+BProblem.exe: CXX_EXECUTABLE_LINKER__A.2bBProblem_Debug CMakeFiles/A+BPr
 
 build cmake_object_order_depends_target_StandInQueue: phony || CMakeFiles/StandInQueue.dir
 
-build CMakeFiles/StandInQueue.dir/SecondWeek/StandInQueue.cpp.obj: CXX_COMPILER__StandInQueue_Debug D$:/Baidu/SecondWeek/StandInQueue.cpp || cmake_object_order_depends_target_StandInQueue
+build CMakeFiles/StandInQueue.dir/SecondWeek/StandInQueue.cpp.obj: CXX_COMPILER__StandInQueue_Debug D$:/workspace/C/Baidu/SecondWeek/StandInQueue.cpp || cmake_object_order_depends_target_StandInQueue
   DEP_FILE = CMakeFiles\StandInQueue.dir\SecondWeek\StandInQueue.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\StandInQueue.dir
@@ -346,7 +346,7 @@ build StandInQueue.exe: CXX_EXECUTABLE_LINKER__StandInQueue_Debug CMakeFiles/Sta
 
 build cmake_object_order_depends_target_maxPower: phony || CMakeFiles/maxPower.dir
 
-build CMakeFiles/maxPower.dir/SecondWeek/maxPower.cpp.obj: CXX_COMPILER__maxPower_Debug D$:/Baidu/SecondWeek/maxPower.cpp || cmake_object_order_depends_target_maxPower
+build CMakeFiles/maxPower.dir/SecondWeek/maxPower.cpp.obj: CXX_COMPILER__maxPower_Debug D$:/workspace/C/Baidu/SecondWeek/maxPower.cpp || cmake_object_order_depends_target_maxPower
   DEP_FILE = CMakeFiles\maxPower.dir\SecondWeek\maxPower.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\maxPower.dir
@@ -379,7 +379,7 @@ build maxPower.exe: CXX_EXECUTABLE_LINKER__maxPower_Debug CMakeFiles/maxPower.di
 
 build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
 
-build CMakeFiles/test.dir/SecondWeek/test.cpp.obj: CXX_COMPILER__test_Debug D$:/Baidu/SecondWeek/test.cpp || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/SecondWeek/test.cpp.obj: CXX_COMPILER__test_Debug D$:/workspace/C/Baidu/SecondWeek/test.cpp || cmake_object_order_depends_target_test
   DEP_FILE = CMakeFiles\test.dir\SecondWeek\test.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\test.dir
@@ -412,7 +412,7 @@ build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/SecondWeek
 
 build cmake_object_order_depends_target_simplifyString: phony || CMakeFiles/simplifyString.dir
 
-build CMakeFiles/simplifyString.dir/thirdweek/simplifyString.cpp.obj: CXX_COMPILER__simplifyString_Debug D$:/Baidu/thirdweek/simplifyString.cpp || cmake_object_order_depends_target_simplifyString
+build CMakeFiles/simplifyString.dir/thirdweek/simplifyString.cpp.obj: CXX_COMPILER__simplifyString_Debug D$:/workspace/C/Baidu/thirdweek/simplifyString.cpp || cmake_object_order_depends_target_simplifyString
   DEP_FILE = CMakeFiles\simplifyString.dir\thirdweek\simplifyString.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\simplifyString.dir
@@ -445,7 +445,7 @@ build simplifyString.exe: CXX_EXECUTABLE_LINKER__simplifyString_Debug CMakeFiles
 
 build cmake_object_order_depends_target_question1: phony || CMakeFiles/question1.dir
 
-build CMakeFiles/question1.dir/thirdweek/question1.cpp.obj: CXX_COMPILER__question1_Debug D$:/Baidu/thirdweek/question1.cpp || cmake_object_order_depends_target_question1
+build CMakeFiles/question1.dir/thirdweek/question1.cpp.obj: CXX_COMPILER__question1_Debug D$:/workspace/C/Baidu/thirdweek/question1.cpp || cmake_object_order_depends_target_question1
   DEP_FILE = CMakeFiles\question1.dir\thirdweek\question1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\question1.dir
@@ -478,7 +478,7 @@ build question1.exe: CXX_EXECUTABLE_LINKER__question1_Debug CMakeFiles/question1
 
 build cmake_object_order_depends_target_question2: phony || CMakeFiles/question2.dir
 
-build CMakeFiles/question2.dir/thirdweek/question2.cpp.obj: CXX_COMPILER__question2_Debug D$:/Baidu/thirdweek/question2.cpp || cmake_object_order_depends_target_question2
+build CMakeFiles/question2.dir/thirdweek/question2.cpp.obj: CXX_COMPILER__question2_Debug D$:/workspace/C/Baidu/thirdweek/question2.cpp || cmake_object_order_depends_target_question2
   DEP_FILE = CMakeFiles\question2.dir\thirdweek\question2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\question2.dir
@@ -511,7 +511,7 @@ build question2.exe: CXX_EXECUTABLE_LINKER__question2_Debug CMakeFiles/question2
 
 build cmake_object_order_depends_target_question4: phony || CMakeFiles/question4.dir
 
-build CMakeFiles/question4.dir/thirdweek/question4.cpp.obj: CXX_COMPILER__question4_Debug D$:/Baidu/thirdweek/question4.cpp || cmake_object_order_depends_target_question4
+build CMakeFiles/question4.dir/thirdweek/question4.cpp.obj: CXX_COMPILER__question4_Debug D$:/workspace/C/Baidu/thirdweek/question4.cpp || cmake_object_order_depends_target_question4
   DEP_FILE = CMakeFiles\question4.dir\thirdweek\question4.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\question4.dir
@@ -544,7 +544,7 @@ build question4.exe: CXX_EXECUTABLE_LINKER__question4_Debug CMakeFiles/question4
 
 build cmake_object_order_depends_target_test01: phony || CMakeFiles/test01.dir
 
-build CMakeFiles/test01.dir/thirdweek/test01.cpp.obj: CXX_COMPILER__test01_Debug D$:/Baidu/thirdweek/test01.cpp || cmake_object_order_depends_target_test01
+build CMakeFiles/test01.dir/thirdweek/test01.cpp.obj: CXX_COMPILER__test01_Debug D$:/workspace/C/Baidu/thirdweek/test01.cpp || cmake_object_order_depends_target_test01
   DEP_FILE = CMakeFiles\test01.dir\thirdweek\test01.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\test01.dir
@@ -577,7 +577,7 @@ build test01.exe: CXX_EXECUTABLE_LINKER__test01_Debug CMakeFiles/test01.dir/thir
 
 build cmake_object_order_depends_target_test02: phony || CMakeFiles/test02.dir
 
-build CMakeFiles/test02.dir/thirdweek/test02.cpp.obj: CXX_COMPILER__test02_Debug D$:/Baidu/thirdweek/test02.cpp || cmake_object_order_depends_target_test02
+build CMakeFiles/test02.dir/thirdweek/test02.cpp.obj: CXX_COMPILER__test02_Debug D$:/workspace/C/Baidu/thirdweek/test02.cpp || cmake_object_order_depends_target_test02
   DEP_FILE = CMakeFiles\test02.dir\thirdweek\test02.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\test02.dir
@@ -610,7 +610,7 @@ build test02.exe: CXX_EXECUTABLE_LINKER__test02_Debug CMakeFiles/test02.dir/thir
 
 build cmake_object_order_depends_target_Question1: phony || CMakeFiles/Question1.dir
 
-build CMakeFiles/Question1.dir/FourthWeek/Question1.cpp.obj: CXX_COMPILER__Question1_Debug D$:/Baidu/FourthWeek/Question1.cpp || cmake_object_order_depends_target_Question1
+build CMakeFiles/Question1.dir/FourthWeek/Question1.cpp.obj: CXX_COMPILER__Question1_Debug D$:/workspace/C/Baidu/FourthWeek/Question1.cpp || cmake_object_order_depends_target_Question1
   DEP_FILE = CMakeFiles\Question1.dir\FourthWeek\Question1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\Question1.dir
@@ -643,7 +643,7 @@ build Question1.exe: CXX_EXECUTABLE_LINKER__Question1_Debug CMakeFiles/Question1
 
 build cmake_object_order_depends_target_Question2: phony || CMakeFiles/Question2.dir
 
-build CMakeFiles/Question2.dir/FourthWeek/Question2.cpp.obj: CXX_COMPILER__Question2_Debug D$:/Baidu/FourthWeek/Question2.cpp || cmake_object_order_depends_target_Question2
+build CMakeFiles/Question2.dir/FourthWeek/Question2.cpp.obj: CXX_COMPILER__Question2_Debug D$:/workspace/C/Baidu/FourthWeek/Question2.cpp || cmake_object_order_depends_target_Question2
   DEP_FILE = CMakeFiles\Question2.dir\FourthWeek\Question2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\Question2.dir
@@ -676,7 +676,7 @@ build Question2.exe: CXX_EXECUTABLE_LINKER__Question2_Debug CMakeFiles/Question2
 
 build cmake_object_order_depends_target_Question3: phony || CMakeFiles/Question3.dir
 
-build CMakeFiles/Question3.dir/FourthWeek/Question3.cpp.obj: CXX_COMPILER__Question3_Debug D$:/Baidu/FourthWeek/Question3.cpp || cmake_object_order_depends_target_Question3
+build CMakeFiles/Question3.dir/FourthWeek/Question3.cpp.obj: CXX_COMPILER__Question3_Debug D$:/workspace/C/Baidu/FourthWeek/Question3.cpp || cmake_object_order_depends_target_Question3
   DEP_FILE = CMakeFiles\Question3.dir\FourthWeek\Question3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\Question3.dir
@@ -709,7 +709,7 @@ build Question3.exe: CXX_EXECUTABLE_LINKER__Question3_Debug CMakeFiles/Question3
 
 build cmake_object_order_depends_target_Question4: phony || CMakeFiles/Question4.dir
 
-build CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj: CXX_COMPILER__Question4_Debug D$:/Baidu/FourthWeek/Question4.cpp || cmake_object_order_depends_target_Question4
+build CMakeFiles/Question4.dir/FourthWeek/Question4.cpp.obj: CXX_COMPILER__Question4_Debug D$:/workspace/C/Baidu/FourthWeek/Question4.cpp || cmake_object_order_depends_target_Question4
   DEP_FILE = CMakeFiles\Question4.dir\FourthWeek\Question4.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\Question4.dir
@@ -742,7 +742,7 @@ build Question4.exe: CXX_EXECUTABLE_LINKER__Question4_Debug CMakeFiles/Question4
 
 build cmake_object_order_depends_target_Question5: phony || CMakeFiles/Question5.dir
 
-build CMakeFiles/Question5.dir/FourthWeek/Question5.cpp.obj: CXX_COMPILER__Question5_Debug D$:/Baidu/FourthWeek/Question5.cpp || cmake_object_order_depends_target_Question5
+build CMakeFiles/Question5.dir/FourthWeek/Question5.cpp.obj: CXX_COMPILER__Question5_Debug D$:/workspace/C/Baidu/FourthWeek/Question5.cpp || cmake_object_order_depends_target_Question5
   DEP_FILE = CMakeFiles\Question5.dir\FourthWeek\Question5.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\Question5.dir
@@ -775,7 +775,7 @@ build Question5.exe: CXX_EXECUTABLE_LINKER__Question5_Debug CMakeFiles/Question5
 
 build cmake_object_order_depends_target_FifthQuestion1: phony || CMakeFiles/FifthQuestion1.dir
 
-build CMakeFiles/FifthQuestion1.dir/FifthWeek/FifthQuestion1.cpp.obj: CXX_COMPILER__FifthQuestion1_Debug D$:/Baidu/FifthWeek/FifthQuestion1.cpp || cmake_object_order_depends_target_FifthQuestion1
+build CMakeFiles/FifthQuestion1.dir/FifthWeek/FifthQuestion1.cpp.obj: CXX_COMPILER__FifthQuestion1_Debug D$:/workspace/C/Baidu/FifthWeek/FifthQuestion1.cpp || cmake_object_order_depends_target_FifthQuestion1
   DEP_FILE = CMakeFiles\FifthQuestion1.dir\FifthWeek\FifthQuestion1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\FifthQuestion1.dir
@@ -808,7 +808,7 @@ build FifthQuestion1.exe: CXX_EXECUTABLE_LINKER__FifthQuestion1_Debug CMakeFiles
 
 build cmake_object_order_depends_target_FifthQ2: phony || CMakeFiles/FifthQ2.dir
 
-build CMakeFiles/FifthQ2.dir/FifthWeek/FifthQ2.cpp.obj: CXX_COMPILER__FifthQ2_Debug D$:/Baidu/FifthWeek/FifthQ2.cpp || cmake_object_order_depends_target_FifthQ2
+build CMakeFiles/FifthQ2.dir/FifthWeek/FifthQ2.cpp.obj: CXX_COMPILER__FifthQ2_Debug D$:/workspace/C/Baidu/FifthWeek/FifthQ2.cpp || cmake_object_order_depends_target_FifthQ2
   DEP_FILE = CMakeFiles\FifthQ2.dir\FifthWeek\FifthQ2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\FifthQ2.dir
@@ -841,7 +841,7 @@ build FifthQ2.exe: CXX_EXECUTABLE_LINKER__FifthQ2_Debug CMakeFiles/FifthQ2.dir/F
 
 build cmake_object_order_depends_target_FifthQ4: phony || CMakeFiles/FifthQ4.dir
 
-build CMakeFiles/FifthQ4.dir/FifthWeek/FifthQ4.cpp.obj: CXX_COMPILER__FifthQ4_Debug D$:/Baidu/FifthWeek/FifthQ4.cpp || cmake_object_order_depends_target_FifthQ4
+build CMakeFiles/FifthQ4.dir/FifthWeek/FifthQ4.cpp.obj: CXX_COMPILER__FifthQ4_Debug D$:/workspace/C/Baidu/FifthWeek/FifthQ4.cpp || cmake_object_order_depends_target_FifthQ4
   DEP_FILE = CMakeFiles\FifthQ4.dir\FifthWeek\FifthQ4.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\FifthQ4.dir
@@ -874,7 +874,7 @@ build FifthQ4.exe: CXX_EXECUTABLE_LINKER__FifthQ4_Debug CMakeFiles/FifthQ4.dir/F
 
 build cmake_object_order_depends_target_FifthQ3: phony || CMakeFiles/FifthQ3.dir
 
-build CMakeFiles/FifthQ3.dir/FifthWeek/FifthQ3.cpp.obj: CXX_COMPILER__FifthQ3_Debug D$:/Baidu/FifthWeek/FifthQ3.cpp || cmake_object_order_depends_target_FifthQ3
+build CMakeFiles/FifthQ3.dir/FifthWeek/FifthQ3.cpp.obj: CXX_COMPILER__FifthQ3_Debug D$:/workspace/C/Baidu/FifthWeek/FifthQ3.cpp || cmake_object_order_depends_target_FifthQ3
   DEP_FILE = CMakeFiles\FifthQ3.dir\FifthWeek\FifthQ3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\FifthQ3.dir
@@ -907,7 +907,7 @@ build FifthQ3.exe: CXX_EXECUTABLE_LINKER__FifthQ3_Debug CMakeFiles/FifthQ3.dir/F
 
 build cmake_object_order_depends_target_SixthQ4: phony || CMakeFiles/SixthQ4.dir
 
-build CMakeFiles/SixthQ4.dir/SixthWeek/SixthQ4.cpp.obj: CXX_COMPILER__SixthQ4_Debug D$:/Baidu/SixthWeek/SixthQ4.cpp || cmake_object_order_depends_target_SixthQ4
+build CMakeFiles/SixthQ4.dir/SixthWeek/SixthQ4.cpp.obj: CXX_COMPILER__SixthQ4_Debug D$:/workspace/C/Baidu/SixthWeek/SixthQ4.cpp || cmake_object_order_depends_target_SixthQ4
   DEP_FILE = CMakeFiles\SixthQ4.dir\SixthWeek\SixthQ4.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\SixthQ4.dir
@@ -940,7 +940,7 @@ build SixthQ4.exe: CXX_EXECUTABLE_LINKER__SixthQ4_Debug CMakeFiles/SixthQ4.dir/S
 
 build cmake_object_order_depends_target_SixthQ2: phony || CMakeFiles/SixthQ2.dir
 
-build CMakeFiles/SixthQ2.dir/SixthWeek/SixthQ2.cpp.obj: CXX_COMPILER__SixthQ2_Debug D$:/Baidu/SixthWeek/SixthQ2.cpp || cmake_object_order_depends_target_SixthQ2
+build CMakeFiles/SixthQ2.dir/SixthWeek/SixthQ2.cpp.obj: CXX_COMPILER__SixthQ2_Debug D$:/workspace/C/Baidu/SixthWeek/SixthQ2.cpp || cmake_object_order_depends_target_SixthQ2
   DEP_FILE = CMakeFiles\SixthQ2.dir\SixthWeek\SixthQ2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\SixthQ2.dir
@@ -973,7 +973,7 @@ build SixthQ2.exe: CXX_EXECUTABLE_LINKER__SixthQ2_Debug CMakeFiles/SixthQ2.dir/S
 
 build cmake_object_order_depends_target_SixthQ3: phony || CMakeFiles/SixthQ3.dir
 
-build CMakeFiles/SixthQ3.dir/SixthWeek/SixthQ3.cpp.obj: CXX_COMPILER__SixthQ3_Debug D$:/Baidu/SixthWeek/SixthQ3.cpp || cmake_object_order_depends_target_SixthQ3
+build CMakeFiles/SixthQ3.dir/SixthWeek/SixthQ3.cpp.obj: CXX_COMPILER__SixthQ3_Debug D$:/workspace/C/Baidu/SixthWeek/SixthQ3.cpp || cmake_object_order_depends_target_SixthQ3
   DEP_FILE = CMakeFiles\SixthQ3.dir\SixthWeek\SixthQ3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\SixthQ3.dir
@@ -1006,7 +1006,7 @@ build SixthQ3.exe: CXX_EXECUTABLE_LINKER__SixthQ3_Debug CMakeFiles/SixthQ3.dir/S
 
 build cmake_object_order_depends_target_SixthQq: phony || CMakeFiles/SixthQq.dir
 
-build CMakeFiles/SixthQq.dir/SixthWeek/SixthQ1.cpp.obj: CXX_COMPILER__SixthQq_Debug D$:/Baidu/SixthWeek/SixthQ1.cpp || cmake_object_order_depends_target_SixthQq
+build CMakeFiles/SixthQq.dir/SixthWeek/SixthQ1.cpp.obj: CXX_COMPILER__SixthQq_Debug D$:/workspace/C/Baidu/SixthWeek/SixthQ1.cpp || cmake_object_order_depends_target_SixthQq
   DEP_FILE = CMakeFiles\SixthQq.dir\SixthWeek\SixthQ1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\SixthQq.dir
@@ -1039,7 +1039,7 @@ build SixthQq.exe: CXX_EXECUTABLE_LINKER__SixthQq_Debug CMakeFiles/SixthQq.dir/S
 
 build cmake_object_order_depends_target_SeventhQ2: phony || CMakeFiles/SeventhQ2.dir
 
-build CMakeFiles/SeventhQ2.dir/SeventhWeek/SeventhQ2.cpp.obj: CXX_COMPILER__SeventhQ2_Debug D$:/Baidu/SeventhWeek/SeventhQ2.cpp || cmake_object_order_depends_target_SeventhQ2
+build CMakeFiles/SeventhQ2.dir/SeventhWeek/SeventhQ2.cpp.obj: CXX_COMPILER__SeventhQ2_Debug D$:/workspace/C/Baidu/SeventhWeek/SeventhQ2.cpp || cmake_object_order_depends_target_SeventhQ2
   DEP_FILE = CMakeFiles\SeventhQ2.dir\SeventhWeek\SeventhQ2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\SeventhQ2.dir
@@ -1072,7 +1072,7 @@ build SeventhQ2.exe: CXX_EXECUTABLE_LINKER__SeventhQ2_Debug CMakeFiles/SeventhQ2
 
 build cmake_object_order_depends_target_SevenQ3: phony || CMakeFiles/SevenQ3.dir
 
-build CMakeFiles/SevenQ3.dir/SeventhWeek/SeventhQ3.cpp.obj: CXX_COMPILER__SevenQ3_Debug D$:/Baidu/SeventhWeek/SeventhQ3.cpp || cmake_object_order_depends_target_SevenQ3
+build CMakeFiles/SevenQ3.dir/SeventhWeek/SeventhQ3.cpp.obj: CXX_COMPILER__SevenQ3_Debug D$:/workspace/C/Baidu/SeventhWeek/SeventhQ3.cpp || cmake_object_order_depends_target_SevenQ3
   DEP_FILE = CMakeFiles\SevenQ3.dir\SeventhWeek\SeventhQ3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\SevenQ3.dir
@@ -1105,7 +1105,7 @@ build SevenQ3.exe: CXX_EXECUTABLE_LINKER__SevenQ3_Debug CMakeFiles/SevenQ3.dir/S
 
 build cmake_object_order_depends_target_SeventhQ4: phony || CMakeFiles/SeventhQ4.dir
 
-build CMakeFiles/SeventhQ4.dir/SeventhWeek/SeventhQ4.cpp.obj: CXX_COMPILER__SeventhQ4_Debug D$:/Baidu/SeventhWeek/SeventhQ4.cpp || cmake_object_order_depends_target_SeventhQ4
+build CMakeFiles/SeventhQ4.dir/SeventhWeek/SeventhQ4.cpp.obj: CXX_COMPILER__SeventhQ4_Debug D$:/workspace/C/Baidu/SeventhWeek/SeventhQ4.cpp || cmake_object_order_depends_target_SeventhQ4
   DEP_FILE = CMakeFiles\SeventhQ4.dir\SeventhWeek\SeventhQ4.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\SeventhQ4.dir
@@ -1138,7 +1138,7 @@ build SeventhQ4.exe: CXX_EXECUTABLE_LINKER__SeventhQ4_Debug CMakeFiles/SeventhQ4
 
 build cmake_object_order_depends_target_SeventhQ1: phony || CMakeFiles/SeventhQ1.dir
 
-build CMakeFiles/SeventhQ1.dir/SeventhWeek/SeventhQ1.cpp.obj: CXX_COMPILER__SeventhQ1_Debug D$:/Baidu/SeventhWeek/SeventhQ1.cpp || cmake_object_order_depends_target_SeventhQ1
+build CMakeFiles/SeventhQ1.dir/SeventhWeek/SeventhQ1.cpp.obj: CXX_COMPILER__SeventhQ1_Debug D$:/workspace/C/Baidu/SeventhWeek/SeventhQ1.cpp || cmake_object_order_depends_target_SeventhQ1
   DEP_FILE = CMakeFiles\SeventhQ1.dir\SeventhWeek\SeventhQ1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\SeventhQ1.dir
@@ -1171,7 +1171,7 @@ build SeventhQ1.exe: CXX_EXECUTABLE_LINKER__SeventhQ1_Debug CMakeFiles/SeventhQ1
 
 build cmake_object_order_depends_target_Sixth6Q2_new: phony || CMakeFiles/Sixth6Q2_new.dir
 
-build CMakeFiles/Sixth6Q2_new.dir/SeventhWeek/Seventh6Q2_new.cpp.obj: CXX_COMPILER__Sixth6Q2_new_Debug D$:/Baidu/SeventhWeek/Seventh6Q2_new.cpp || cmake_object_order_depends_target_Sixth6Q2_new
+build CMakeFiles/Sixth6Q2_new.dir/SeventhWeek/Seventh6Q2_new.cpp.obj: CXX_COMPILER__Sixth6Q2_new_Debug D$:/workspace/C/Baidu/SeventhWeek/Seventh6Q2_new.cpp || cmake_object_order_depends_target_Sixth6Q2_new
   DEP_FILE = CMakeFiles\Sixth6Q2_new.dir\SeventhWeek\Seventh6Q2_new.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\Sixth6Q2_new.dir
@@ -1204,7 +1204,7 @@ build Sixth6Q2_new.exe: CXX_EXECUTABLE_LINKER__Sixth6Q2_new_Debug CMakeFiles/Six
 
 build cmake_object_order_depends_target_Seventh6Q2_new: phony || CMakeFiles/Seventh6Q2_new.dir
 
-build CMakeFiles/Seventh6Q2_new.dir/SeventhWeek/Seventh6Q2_new.cpp.obj: CXX_COMPILER__Seventh6Q2_new_Debug D$:/Baidu/SeventhWeek/Seventh6Q2_new.cpp || cmake_object_order_depends_target_Seventh6Q2_new
+build CMakeFiles/Seventh6Q2_new.dir/SeventhWeek/Seventh6Q2_new.cpp.obj: CXX_COMPILER__Seventh6Q2_new_Debug D$:/workspace/C/Baidu/SeventhWeek/Seventh6Q2_new.cpp || cmake_object_order_depends_target_Seventh6Q2_new
   DEP_FILE = CMakeFiles\Seventh6Q2_new.dir\SeventhWeek\Seventh6Q2_new.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\Seventh6Q2_new.dir
@@ -1237,7 +1237,7 @@ build Seventh6Q2_new.exe: CXX_EXECUTABLE_LINKER__Seventh6Q2_new_Debug CMakeFiles
 
 build cmake_object_order_depends_target_SeventhQ3_new: phony || CMakeFiles/SeventhQ3_new.dir
 
-build CMakeFiles/SeventhQ3_new.dir/SeventhWeek/SeventhQ3_new.cpp.obj: CXX_COMPILER__SeventhQ3_new_Debug D$:/Baidu/SeventhWeek/SeventhQ3_new.cpp || cmake_object_order_depends_target_SeventhQ3_new
+build CMakeFiles/SeventhQ3_new.dir/SeventhWeek/SeventhQ3_new.cpp.obj: CXX_COMPILER__SeventhQ3_new_Debug D$:/workspace/C/Baidu/SeventhWeek/SeventhQ3_new.cpp || cmake_object_order_depends_target_SeventhQ3_new
   DEP_FILE = CMakeFiles\SeventhQ3_new.dir\SeventhWeek\SeventhQ3_new.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\SeventhQ3_new.dir
@@ -1270,7 +1270,7 @@ build SeventhQ3_new.exe: CXX_EXECUTABLE_LINKER__SeventhQ3_new_Debug CMakeFiles/S
 
 build cmake_object_order_depends_target_EighthQ1: phony || CMakeFiles/EighthQ1.dir
 
-build CMakeFiles/EighthQ1.dir/EighthWeek/EighthQ1.cpp.obj: CXX_COMPILER__EighthQ1_Debug D$:/Baidu/EighthWeek/EighthQ1.cpp || cmake_object_order_depends_target_EighthQ1
+build CMakeFiles/EighthQ1.dir/EighthWeek/EighthQ1.cpp.obj: CXX_COMPILER__EighthQ1_Debug D$:/workspace/C/Baidu/EighthWeek/EighthQ1.cpp || cmake_object_order_depends_target_EighthQ1
   DEP_FILE = CMakeFiles\EighthQ1.dir\EighthWeek\EighthQ1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\EighthQ1.dir
@@ -1303,7 +1303,7 @@ build EighthQ1.exe: CXX_EXECUTABLE_LINKER__EighthQ1_Debug CMakeFiles/EighthQ1.di
 
 build cmake_object_order_depends_target_EighthQ2: phony || CMakeFiles/EighthQ2.dir
 
-build CMakeFiles/EighthQ2.dir/EighthWeek/EighthQ2.cpp.obj: CXX_COMPILER__EighthQ2_Debug D$:/Baidu/EighthWeek/EighthQ2.cpp || cmake_object_order_depends_target_EighthQ2
+build CMakeFiles/EighthQ2.dir/EighthWeek/EighthQ2.cpp.obj: CXX_COMPILER__EighthQ2_Debug D$:/workspace/C/Baidu/EighthWeek/EighthQ2.cpp || cmake_object_order_depends_target_EighthQ2
   DEP_FILE = CMakeFiles\EighthQ2.dir\EighthWeek\EighthQ2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\EighthQ2.dir
@@ -1336,7 +1336,7 @@ build EighthQ2.exe: CXX_EXECUTABLE_LINKER__EighthQ2_Debug CMakeFiles/EighthQ2.di
 
 build cmake_object_order_depends_target_EighthQ3: phony || CMakeFiles/EighthQ3.dir
 
-build CMakeFiles/EighthQ3.dir/EighthWeek/EighthQ3.cpp.obj: CXX_COMPILER__EighthQ3_Debug D$:/Baidu/EighthWeek/EighthQ3.cpp || cmake_object_order_depends_target_EighthQ3
+build CMakeFiles/EighthQ3.dir/EighthWeek/EighthQ3.cpp.obj: CXX_COMPILER__EighthQ3_Debug D$:/workspace/C/Baidu/EighthWeek/EighthQ3.cpp || cmake_object_order_depends_target_EighthQ3
   DEP_FILE = CMakeFiles\EighthQ3.dir\EighthWeek\EighthQ3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\EighthQ3.dir
@@ -1369,7 +1369,7 @@ build EighthQ3.exe: CXX_EXECUTABLE_LINKER__EighthQ3_Debug CMakeFiles/EighthQ3.di
 
 build cmake_object_order_depends_target_EighthQ4: phony || CMakeFiles/EighthQ4.dir
 
-build CMakeFiles/EighthQ4.dir/EighthWeek/EighthQ4.cpp.obj: CXX_COMPILER__EighthQ4_Debug D$:/Baidu/EighthWeek/EighthQ4.cpp || cmake_object_order_depends_target_EighthQ4
+build CMakeFiles/EighthQ4.dir/EighthWeek/EighthQ4.cpp.obj: CXX_COMPILER__EighthQ4_Debug D$:/workspace/C/Baidu/EighthWeek/EighthQ4.cpp || cmake_object_order_depends_target_EighthQ4
   DEP_FILE = CMakeFiles\EighthQ4.dir\EighthWeek\EighthQ4.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\EighthQ4.dir
@@ -1402,7 +1402,7 @@ build EighthQ4.exe: CXX_EXECUTABLE_LINKER__EighthQ4_Debug CMakeFiles/EighthQ4.di
 
 build cmake_object_order_depends_target_Q1: phony || CMakeFiles/Q1.dir
 
-build CMakeFiles/Q1.dir/NinthWeek/Q1.cpp.obj: CXX_COMPILER__Q1_Debug D$:/Baidu/NinthWeek/Q1.cpp || cmake_object_order_depends_target_Q1
+build CMakeFiles/Q1.dir/NinthWeek/Q1.cpp.obj: CXX_COMPILER__Q1_Debug D$:/workspace/C/Baidu/NinthWeek/Q1.cpp || cmake_object_order_depends_target_Q1
   DEP_FILE = CMakeFiles\Q1.dir\NinthWeek\Q1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\Q1.dir
@@ -1435,7 +1435,7 @@ build Q1.exe: CXX_EXECUTABLE_LINKER__Q1_Debug CMakeFiles/Q1.dir/NinthWeek/Q1.cpp
 
 build cmake_object_order_depends_target_Q4: phony || CMakeFiles/Q4.dir
 
-build CMakeFiles/Q4.dir/NinthWeek/Q4.cpp.obj: CXX_COMPILER__Q4_Debug D$:/Baidu/NinthWeek/Q4.cpp || cmake_object_order_depends_target_Q4
+build CMakeFiles/Q4.dir/NinthWeek/Q4.cpp.obj: CXX_COMPILER__Q4_Debug D$:/workspace/C/Baidu/NinthWeek/Q4.cpp || cmake_object_order_depends_target_Q4
   DEP_FILE = CMakeFiles\Q4.dir\NinthWeek\Q4.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\Q4.dir
@@ -1468,7 +1468,7 @@ build Q4.exe: CXX_EXECUTABLE_LINKER__Q4_Debug CMakeFiles/Q4.dir/NinthWeek/Q4.cpp
 
 build cmake_object_order_depends_target_Q5: phony || CMakeFiles/Q5.dir
 
-build CMakeFiles/Q5.dir/NinthWeek/Q5.cpp.obj: CXX_COMPILER__Q5_Debug D$:/Baidu/NinthWeek/Q5.cpp || cmake_object_order_depends_target_Q5
+build CMakeFiles/Q5.dir/NinthWeek/Q5.cpp.obj: CXX_COMPILER__Q5_Debug D$:/workspace/C/Baidu/NinthWeek/Q5.cpp || cmake_object_order_depends_target_Q5
   DEP_FILE = CMakeFiles\Q5.dir\NinthWeek\Q5.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\Q5.dir
@@ -1501,7 +1501,7 @@ build Q5.exe: CXX_EXECUTABLE_LINKER__Q5_Debug CMakeFiles/Q5.dir/NinthWeek/Q5.cpp
 
 build cmake_object_order_depends_target_Q3: phony || CMakeFiles/Q3.dir
 
-build CMakeFiles/Q3.dir/NinthWeek/Q3.cpp.obj: CXX_COMPILER__Q3_Debug D$:/Baidu/NinthWeek/Q3.cpp || cmake_object_order_depends_target_Q3
+build CMakeFiles/Q3.dir/NinthWeek/Q3.cpp.obj: CXX_COMPILER__Q3_Debug D$:/workspace/C/Baidu/NinthWeek/Q3.cpp || cmake_object_order_depends_target_Q3
   DEP_FILE = CMakeFiles\Q3.dir\NinthWeek\Q3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\Q3.dir
@@ -1534,7 +1534,7 @@ build Q3.exe: CXX_EXECUTABLE_LINKER__Q3_Debug CMakeFiles/Q3.dir/NinthWeek/Q3.cpp
 
 build cmake_object_order_depends_target_TenthQ6: phony || CMakeFiles/TenthQ6.dir
 
-build CMakeFiles/TenthQ6.dir/TenthWeek/TenthQ5.cpp.obj: CXX_COMPILER__TenthQ6_Debug D$:/Baidu/TenthWeek/TenthQ5.cpp || cmake_object_order_depends_target_TenthQ6
+build CMakeFiles/TenthQ6.dir/TenthWeek/TenthQ5.cpp.obj: CXX_COMPILER__TenthQ6_Debug D$:/workspace/C/Baidu/TenthWeek/TenthQ5.cpp || cmake_object_order_depends_target_TenthQ6
   DEP_FILE = CMakeFiles\TenthQ6.dir\TenthWeek\TenthQ5.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\TenthQ6.dir
@@ -1567,7 +1567,7 @@ build TenthQ6.exe: CXX_EXECUTABLE_LINKER__TenthQ6_Debug CMakeFiles/TenthQ6.dir/T
 
 build cmake_object_order_depends_target_TenthQ1: phony || CMakeFiles/TenthQ1.dir
 
-build CMakeFiles/TenthQ1.dir/TenthWeek/TenthQ1.cpp.obj: CXX_COMPILER__TenthQ1_Debug D$:/Baidu/TenthWeek/TenthQ1.cpp || cmake_object_order_depends_target_TenthQ1
+build CMakeFiles/TenthQ1.dir/TenthWeek/TenthQ1.cpp.obj: CXX_COMPILER__TenthQ1_Debug D$:/workspace/C/Baidu/TenthWeek/TenthQ1.cpp || cmake_object_order_depends_target_TenthQ1
   DEP_FILE = CMakeFiles\TenthQ1.dir\TenthWeek\TenthQ1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\TenthQ1.dir
@@ -1600,7 +1600,7 @@ build TenthQ1.exe: CXX_EXECUTABLE_LINKER__TenthQ1_Debug CMakeFiles/TenthQ1.dir/T
 
 build cmake_object_order_depends_target_TenthQ2: phony || CMakeFiles/TenthQ2.dir
 
-build CMakeFiles/TenthQ2.dir/TenthWeek/TenthQ2.cpp.obj: CXX_COMPILER__TenthQ2_Debug D$:/Baidu/TenthWeek/TenthQ2.cpp || cmake_object_order_depends_target_TenthQ2
+build CMakeFiles/TenthQ2.dir/TenthWeek/TenthQ2.cpp.obj: CXX_COMPILER__TenthQ2_Debug D$:/workspace/C/Baidu/TenthWeek/TenthQ2.cpp || cmake_object_order_depends_target_TenthQ2
   DEP_FILE = CMakeFiles\TenthQ2.dir\TenthWeek\TenthQ2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\TenthQ2.dir
@@ -1633,7 +1633,7 @@ build TenthQ2.exe: CXX_EXECUTABLE_LINKER__TenthQ2_Debug CMakeFiles/TenthQ2.dir/T
 
 build cmake_object_order_depends_target_TenthQ3: phony || CMakeFiles/TenthQ3.dir
 
-build CMakeFiles/TenthQ3.dir/TenthWeek/TenthQ3.cpp.obj: CXX_COMPILER__TenthQ3_Debug D$:/Baidu/TenthWeek/TenthQ3.cpp || cmake_object_order_depends_target_TenthQ3
+build CMakeFiles/TenthQ3.dir/TenthWeek/TenthQ3.cpp.obj: CXX_COMPILER__TenthQ3_Debug D$:/workspace/C/Baidu/TenthWeek/TenthQ3.cpp || cmake_object_order_depends_target_TenthQ3
   DEP_FILE = CMakeFiles\TenthQ3.dir\TenthWeek\TenthQ3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\TenthQ3.dir
@@ -1666,7 +1666,7 @@ build TenthQ3.exe: CXX_EXECUTABLE_LINKER__TenthQ3_Debug CMakeFiles/TenthQ3.dir/T
 
 build cmake_object_order_depends_target_TenthQ4: phony || CMakeFiles/TenthQ4.dir
 
-build CMakeFiles/TenthQ4.dir/TenthWeek/TenthQ4.cpp.obj: CXX_COMPILER__TenthQ4_Debug D$:/Baidu/TenthWeek/TenthQ4.cpp || cmake_object_order_depends_target_TenthQ4
+build CMakeFiles/TenthQ4.dir/TenthWeek/TenthQ4.cpp.obj: CXX_COMPILER__TenthQ4_Debug D$:/workspace/C/Baidu/TenthWeek/TenthQ4.cpp || cmake_object_order_depends_target_TenthQ4
   DEP_FILE = CMakeFiles\TenthQ4.dir\TenthWeek\TenthQ4.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\TenthQ4.dir
@@ -1699,7 +1699,7 @@ build TenthQ4.exe: CXX_EXECUTABLE_LINKER__TenthQ4_Debug CMakeFiles/TenthQ4.dir/T
 
 build cmake_object_order_depends_target_EleventhQ1: phony || CMakeFiles/EleventhQ1.dir
 
-build CMakeFiles/EleventhQ1.dir/EleventhWeek/EleventhQ1.cpp.obj: CXX_COMPILER__EleventhQ1_Debug D$:/Baidu/EleventhWeek/EleventhQ1.cpp || cmake_object_order_depends_target_EleventhQ1
+build CMakeFiles/EleventhQ1.dir/EleventhWeek/EleventhQ1.cpp.obj: CXX_COMPILER__EleventhQ1_Debug D$:/workspace/C/Baidu/EleventhWeek/EleventhQ1.cpp || cmake_object_order_depends_target_EleventhQ1
   DEP_FILE = CMakeFiles\EleventhQ1.dir\EleventhWeek\EleventhQ1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\EleventhQ1.dir
@@ -1732,7 +1732,7 @@ build EleventhQ1.exe: CXX_EXECUTABLE_LINKER__EleventhQ1_Debug CMakeFiles/Elevent
 
 build cmake_object_order_depends_target_EleventhQ4: phony || CMakeFiles/EleventhQ4.dir
 
-build CMakeFiles/EleventhQ4.dir/EleventhWeek/EleventhQ4.cpp.obj: CXX_COMPILER__EleventhQ4_Debug D$:/Baidu/EleventhWeek/EleventhQ4.cpp || cmake_object_order_depends_target_EleventhQ4
+build CMakeFiles/EleventhQ4.dir/EleventhWeek/EleventhQ4.cpp.obj: CXX_COMPILER__EleventhQ4_Debug D$:/workspace/C/Baidu/EleventhWeek/EleventhQ4.cpp || cmake_object_order_depends_target_EleventhQ4
   DEP_FILE = CMakeFiles\EleventhQ4.dir\EleventhWeek\EleventhQ4.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\EleventhQ4.dir
@@ -1765,7 +1765,7 @@ build EleventhQ4.exe: CXX_EXECUTABLE_LINKER__EleventhQ4_Debug CMakeFiles/Elevent
 
 build cmake_object_order_depends_target_EleventhQ5: phony || CMakeFiles/EleventhQ5.dir
 
-build CMakeFiles/EleventhQ5.dir/EleventhWeek/EleventhQ5.cpp.obj: CXX_COMPILER__EleventhQ5_Debug D$:/Baidu/EleventhWeek/EleventhQ5.cpp || cmake_object_order_depends_target_EleventhQ5
+build CMakeFiles/EleventhQ5.dir/EleventhWeek/EleventhQ5.cpp.obj: CXX_COMPILER__EleventhQ5_Debug D$:/workspace/C/Baidu/EleventhWeek/EleventhQ5.cpp || cmake_object_order_depends_target_EleventhQ5
   DEP_FILE = CMakeFiles\EleventhQ5.dir\EleventhWeek\EleventhQ5.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\EleventhQ5.dir
@@ -1798,7 +1798,7 @@ build EleventhQ5.exe: CXX_EXECUTABLE_LINKER__EleventhQ5_Debug CMakeFiles/Elevent
 
 build cmake_object_order_depends_target_EleventhQ2: phony || CMakeFiles/EleventhQ2.dir
 
-build CMakeFiles/EleventhQ2.dir/EleventhWeek/EleventhQ2.cpp.obj: CXX_COMPILER__EleventhQ2_Debug D$:/Baidu/EleventhWeek/EleventhQ2.cpp || cmake_object_order_depends_target_EleventhQ2
+build CMakeFiles/EleventhQ2.dir/EleventhWeek/EleventhQ2.cpp.obj: CXX_COMPILER__EleventhQ2_Debug D$:/workspace/C/Baidu/EleventhWeek/EleventhQ2.cpp || cmake_object_order_depends_target_EleventhQ2
   DEP_FILE = CMakeFiles\EleventhQ2.dir\EleventhWeek\EleventhQ2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\EleventhQ2.dir
@@ -1831,7 +1831,7 @@ build EleventhQ2.exe: CXX_EXECUTABLE_LINKER__EleventhQ2_Debug CMakeFiles/Elevent
 
 build cmake_object_order_depends_target_mytest: phony || CMakeFiles/mytest.dir
 
-build CMakeFiles/mytest.dir/thirdweek/mytest.cpp.obj: CXX_COMPILER__mytest_Debug D$:/Baidu/thirdweek/mytest.cpp || cmake_object_order_depends_target_mytest
+build CMakeFiles/mytest.dir/thirdweek/mytest.cpp.obj: CXX_COMPILER__mytest_Debug D$:/workspace/C/Baidu/thirdweek/mytest.cpp || cmake_object_order_depends_target_mytest
   DEP_FILE = CMakeFiles\mytest.dir\thirdweek\mytest.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\mytest.dir
@@ -1864,7 +1864,7 @@ build mytest.exe: CXX_EXECUTABLE_LINKER__mytest_Debug CMakeFiles/mytest.dir/thir
 
 build cmake_object_order_depends_target_thirteenthQ5: phony || CMakeFiles/thirteenthQ5.dir
 
-build CMakeFiles/thirteenthQ5.dir/ThirteenthWeek/thirteenthQ5.cpp.obj: CXX_COMPILER__thirteenthQ5_Debug D$:/Baidu/ThirteenthWeek/thirteenthQ5.cpp || cmake_object_order_depends_target_thirteenthQ5
+build CMakeFiles/thirteenthQ5.dir/ThirteenthWeek/thirteenthQ5.cpp.obj: CXX_COMPILER__thirteenthQ5_Debug D$:/workspace/C/Baidu/ThirteenthWeek/thirteenthQ5.cpp || cmake_object_order_depends_target_thirteenthQ5
   DEP_FILE = CMakeFiles\thirteenthQ5.dir\ThirteenthWeek\thirteenthQ5.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   OBJECT_DIR = CMakeFiles\thirteenthQ5.dir
@@ -1888,12 +1888,144 @@ build thirteenthQ5.exe: CXX_EXECUTABLE_LINKER__thirteenthQ5_Debug CMakeFiles/thi
   TARGET_IMPLIB = libthirteenthQ5.dll.a
   TARGET_PDB = thirteenthQ5.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Q4In14th
+
+
+#############################################
+# Order-only phony target for Q4In14th
+
+build cmake_object_order_depends_target_Q4In14th: phony || CMakeFiles/Q4In14th.dir
+
+build CMakeFiles/Q4In14th.dir/FourthteenWeek/Q4In14th.cpp.obj: CXX_COMPILER__Q4In14th_Debug D$:/workspace/C/Baidu/FourthteenWeek/Q4In14th.cpp || cmake_object_order_depends_target_Q4In14th
+  DEP_FILE = CMakeFiles\Q4In14th.dir\FourthteenWeek\Q4In14th.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Q4In14th.dir
+  OBJECT_FILE_DIR = CMakeFiles\Q4In14th.dir\FourthteenWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q4In14th
+
+
+#############################################
+# Link the executable Q4In14th.exe
+
+build Q4In14th.exe: CXX_EXECUTABLE_LINKER__Q4In14th_Debug CMakeFiles/Q4In14th.dir/FourthteenWeek/Q4In14th.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Q4In14th.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Q4In14th.exe
+  TARGET_IMPLIB = libQ4In14th.dll.a
+  TARGET_PDB = Q4In14th.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Q5In14th
+
+
+#############################################
+# Order-only phony target for Q5In14th
+
+build cmake_object_order_depends_target_Q5In14th: phony || CMakeFiles/Q5In14th.dir
+
+build CMakeFiles/Q5In14th.dir/FourthteenWeek/Q5In14th.cpp.obj: CXX_COMPILER__Q5In14th_Debug D$:/workspace/C/Baidu/FourthteenWeek/Q5In14th.cpp || cmake_object_order_depends_target_Q5In14th
+  DEP_FILE = CMakeFiles\Q5In14th.dir\FourthteenWeek\Q5In14th.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Q5In14th.dir
+  OBJECT_FILE_DIR = CMakeFiles\Q5In14th.dir\FourthteenWeek
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q5In14th
+
+
+#############################################
+# Link the executable Q5In14th.exe
+
+build Q5In14th.exe: CXX_EXECUTABLE_LINKER__Q5In14th_Debug CMakeFiles/Q5In14th.dir/FourthteenWeek/Q5In14th.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Q5In14th.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Q5In14th.exe
+  TARGET_IMPLIB = libQ5In14th.dll.a
+  TARGET_PDB = Q5In14th.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 20WeekQ1
+
+
+#############################################
+# Order-only phony target for 20WeekQ1
+
+build cmake_object_order_depends_target_20WeekQ1: phony || CMakeFiles/20WeekQ1.dir
+
+build CMakeFiles/20WeekQ1.dir/20Week/20WeekQ1.cpp.obj: CXX_COMPILER__20WeekQ1_Debug D$:/workspace/C/Baidu/20Week/20WeekQ1.cpp || cmake_object_order_depends_target_20WeekQ1
+  DEP_FILE = CMakeFiles\20WeekQ1.dir\20Week\20WeekQ1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles\20WeekQ1.dir
+  OBJECT_FILE_DIR = CMakeFiles\20WeekQ1.dir\20Week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 20WeekQ1
+
+
+#############################################
+# Link the executable 20WeekQ1.exe
+
+build 20WeekQ1.exe: CXX_EXECUTABLE_LINKER__20WeekQ1_Debug CMakeFiles/20WeekQ1.dir/20Week/20WeekQ1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\20WeekQ1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 20WeekQ1.exe
+  TARGET_IMPLIB = lib20WeekQ1.dll.a
+  TARGET_PDB = 20WeekQ1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 20WeekQ1Answer
+
+
+#############################################
+# Order-only phony target for 20WeekQ1Answer
+
+build cmake_object_order_depends_target_20WeekQ1Answer: phony || CMakeFiles/20WeekQ1Answer.dir
+
+build CMakeFiles/20WeekQ1Answer.dir/20Week/20WeekQ1Answer.cpp.obj: CXX_COMPILER__20WeekQ1Answer_Debug D$:/workspace/C/Baidu/20Week/20WeekQ1Answer.cpp || cmake_object_order_depends_target_20WeekQ1Answer
+  DEP_FILE = CMakeFiles\20WeekQ1Answer.dir\20Week\20WeekQ1Answer.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles\20WeekQ1Answer.dir
+  OBJECT_FILE_DIR = CMakeFiles\20WeekQ1Answer.dir\20Week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 20WeekQ1Answer
+
+
+#############################################
+# Link the executable 20WeekQ1Answer.exe
+
+build 20WeekQ1Answer.exe: CXX_EXECUTABLE_LINKER__20WeekQ1Answer_Debug CMakeFiles/20WeekQ1Answer.dir/20Week/20WeekQ1Answer.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\20WeekQ1Answer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 20WeekQ1Answer.exe
+  TARGET_IMPLIB = lib20WeekQ1Answer.dll.a
+  TARGET_PDB = 20WeekQ1Answer.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Baidu\cmake-build-debug && "D:\Clion\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\workspace\C\Baidu\cmake-build-debug && "D:\Clion\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1904,7 +2036,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Baidu\cmake-build-debug && "D:\Clion\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Baidu -BD:\Baidu\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\workspace\C\Baidu\cmake-build-debug && "D:\Clion\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\workspace\C\Baidu -BD:\workspace\C\Baidu\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1913,6 +2045,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build 20WeekQ1: phony 20WeekQ1.exe
+
+build 20WeekQ1Answer: phony 20WeekQ1Answer.exe
 
 build A+BProblem: phony A+BProblem.exe
 
@@ -1950,7 +2086,11 @@ build Q3: phony Q3.exe
 
 build Q4: phony Q4.exe
 
+build Q4In14th: phony Q4In14th.exe
+
 build Q5: phony Q5.exe
+
+build Q5In14th: phony Q5In14th.exe
 
 build Question1: phony Question1.exe
 
@@ -2032,9 +2172,9 @@ build thirteenthQ5: phony thirteenthQ5.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Baidu/cmake-build-debug
+# Folder: D:/workspace/C/Baidu/cmake-build-debug
 
-build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe SixthQ4.exe SixthQ2.exe SixthQ3.exe SixthQq.exe SeventhQ2.exe SevenQ3.exe SeventhQ4.exe SeventhQ1.exe Sixth6Q2_new.exe Seventh6Q2_new.exe SeventhQ3_new.exe EighthQ1.exe EighthQ2.exe EighthQ3.exe EighthQ4.exe Q1.exe Q4.exe Q5.exe Q3.exe TenthQ6.exe TenthQ1.exe TenthQ2.exe TenthQ3.exe TenthQ4.exe EleventhQ1.exe EleventhQ4.exe EleventhQ5.exe EleventhQ2.exe mytest.exe thirteenthQ5.exe
+build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCompetition.exe powerOf2.exe NoRepeatString.exe A+BProblem.exe StandInQueue.exe maxPower.exe test.exe simplifyString.exe question1.exe question2.exe question4.exe test01.exe test02.exe Question1.exe Question2.exe Question3.exe Question4.exe Question5.exe FifthQuestion1.exe FifthQ2.exe FifthQ4.exe FifthQ3.exe SixthQ4.exe SixthQ2.exe SixthQ3.exe SixthQq.exe SeventhQ2.exe SevenQ3.exe SeventhQ4.exe SeventhQ1.exe Sixth6Q2_new.exe Seventh6Q2_new.exe SeventhQ3_new.exe EighthQ1.exe EighthQ2.exe EighthQ3.exe EighthQ4.exe Q1.exe Q4.exe Q5.exe Q3.exe TenthQ6.exe TenthQ1.exe TenthQ2.exe TenthQ3.exe TenthQ4.exe EleventhQ1.exe EleventhQ4.exe EleventhQ5.exe EleventhQ2.exe mytest.exe thirteenthQ5.exe Q4In14th.exe Q5In14th.exe 20WeekQ1.exe 20WeekQ1Answer.exe
 
 # =============================================================================
 # Built-in targets
@@ -2043,14 +2183,14 @@ build all: phony chess.exe combineArr.exe factorial.exe matrixMultiple.exe MXRCo
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/Baidu/CMakeLists.txt D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake D$:/workspace/C/Baidu/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/Baidu/CMakeLists.txt D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2022.1.2/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake D$:/workspace/C/Baidu/CMakeLists.txt: phony
 
 
 #############################################
